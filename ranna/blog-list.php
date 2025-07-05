@@ -1,34 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ranna | All Recipes</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.png">
-    <!-- Normalize Css -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- Main Css -->
-    <link rel="stylesheet" href="css/main.css">
-    <!-- Bootstrap Css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate.min.css">
-    <!-- Fontawesome CSS -->
-    <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    <!-- Flaticon CSS -->
-    <link rel="stylesheet" href="fonts/flaticon.css">
-    <!-- Owl Carousel CSS -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <!-- Custom Css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Modernizr Js -->
-    <script src="js/modernizr-3.6.0.min.js"></script>
-</head>
+<?php include "head.php"?>
 
 <body>
     <!--[if lte IE 9]>
@@ -416,12 +389,12 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumbs-area">
-                            <h1>Search Your Recipes</h1>
+                            <h1>List Blog Page</h1>
                             <ul>
                                 <li>
                                     <a href="index.html">Home</a>
                                 </li>
-                                <li>All Recipes</li>
+                                <li>Blog</li>
                             </ul>
                         </div>
                     </div>
@@ -429,458 +402,145 @@
             </div>
         </section>
         <!-- Inne Page Banner Area End Here -->
-        <!-- Recipe With Sidebar Area Start Here -->
-        <section class="all-recipes-page-wrap padding-top-80 padding-bottom-22">
+        <!-- Blog List Area Start Here -->
+        <section class="blog-list-page-wrap padding-top-80 padding-bottom-50">
             <div class="container">
                 <div class="row gutters-60">
                     <div class="col-lg-8">
-                        <div class="adv-search-wrap">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Author Name or Recipe Search . . ." />
-                                <div class="btn-group">
-                                    <div class="input-group-btn">
-                                        <button type="button" id="adv-serch" class="btn-adv-serch">
-                                            <i class="icon-plus flaticon-add-plus-button"></i>
-                                            <i class="icon-minus fas fa-minus"></i>
-                                            Advanced Search</button>
-                                    </div>
-                                    <div class="input-group-btn">
-                                        <button type="submit" class="btn-search"><i class="flaticon-search"></i></button>
-                                    </div>
-                                </div>
+                        <div class="blog-box-layout1">
+                            <div class="item-figure">
+                                <a href="single-blog.html"><img src="img/blog/blog9.jpg" alt="Blog"></a>
                             </div>
-                            <div class="advance-search-form">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <h3 class="item-title">BY CATEGORIES</h3>
-                                        <ul class="search-items">
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox101" type="checkbox">
-                                                    <label for="checkbox101">Baking</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox102" type="checkbox">
-                                                    <label for="checkbox102">Dinner</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox103" type="checkbox">
-                                                    <label for="checkbox103">Lunch</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox104" type="checkbox">
-                                                    <label for="checkbox104">Sea Food</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox105" type="checkbox">
-                                                    <label for="checkbox105">Sweets</label>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <h3 class="item-title">BY INGREDIENTS</h3>
-                                        <ul class="search-items">
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox106" type="checkbox">
-                                                    <label for="checkbox106">Oil</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox107" type="checkbox">
-                                                    <label for="checkbox107">Vegitables</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox108" type="checkbox">
-                                                    <label for="checkbox108">Fish</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox109" type="checkbox">
-                                                    <label for="checkbox109">White Salt</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox110" type="checkbox">
-                                                    <label for="checkbox110">Pizza
-
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox111" type="checkbox">
-                                                    <label for="checkbox111">Meat</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox112" type="checkbox">
-                                                    <label for="checkbox112">Juice</label>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <h3 class="item-title">BY CUISINE</h3>
-                                        <ul class="search-items">
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox113" type="checkbox">
-                                                    <label for="checkbox113">Indian</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox114" type="checkbox">
-                                                    <label for="checkbox114">Italian</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox115" type="checkbox">
-                                                    <label for="checkbox115">Maxican</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox116" type="checkbox">
-                                                    <label for="checkbox116">Bengali</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox117" type="checkbox">
-                                                    <label for="checkbox117">Franch</label>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <h3 class="item-title">BY METHOD</h3>
-                                        <ul class="search-items">
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox118" type="checkbox">
-                                                    <label for="checkbox118">Baking</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox119" type="checkbox">
-                                                    <label for="checkbox119">Freezing</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox120" type="checkbox">
-                                                    <label for="checkbox120">Frying</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="checkbox checkbox-primary">
-                                                    <input id="checkbox121" type="checkbox">
-                                                    <label for="checkbox121">Grilling</label>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                            <div class="item-content">
+                                <ul class="entry-meta">
+                                    <li><a href="#"><i class="fas fa-clock"></i>15 December, 2018</a></li>
+                                    <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                    <li><a href="#"><i class="fas fa-comments"></i>Comments <span>(03)</span></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i><span>59</span></a></li>
+                                </ul>
+                                <h3 class="item-title"><a href="single-blog.html">Tomatoes Stuffed with Foieand Chanter
+                                        ellesdressed your designers
+                                        had would if everyone theup still primaril</a></h3>
+                                <p>Rmply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                    galley of type and scrambledsimply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard.</p>
+                                <a href="single-blog.html" class="item-btn">Continue Reading<i class="flaticon-next"></i></a>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6 col-12">
-                                <div class="product-box-layout1">
-                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product50.jpg"
-                                                alt="Product"></a></figure>
-                                    <div class="item-content">
-                                        <span class="sub-title">CHICKEN</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
-                                                and Chanterelles</a></h3>
-                                        <ul class="item-rating">
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-empty"><i class="fas fa-star"></i></li>
-                                            <li><span>9<span> / 10</span></span> </li>
-                                        </ul>
-                                        <p>More off this less hello salamander lied porpoise much over tightly circa
-                                            outside crud mightily rigorouse. </p>
-                                        <ul class="entry-meta">
-                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
-                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
-                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                        <div class="blog-box-layout1">
+                            <div class="item-figure">
+                                <a href="single-blog.html"><img src="img/blog/blog10.jpg" alt="Blog"></a>
                             </div>
-                            <div class="col-md-6 col-12">
-                                <div class="product-box-layout1">
-                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product51.jpg"
-                                                alt="Product"></a></figure>
-                                    <div class="item-content">
-                                        <span class="sub-title">CHICKEN</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
-                                                and Chanterelles</a></h3>
-                                        <ul class="item-rating">
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-empty"><i class="fas fa-star"></i></li>
-                                            <li><span>9<span> / 10</span></span> </li>
-                                        </ul>
-                                        <p>More off this less hello salamander lied porpoise much over tightly circa
-                                            outside crud mightily rigorouse. </p>
-                                        <ul class="entry-meta">
-                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
-                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
-                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="product-box-layout1">
-                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product52.jpg"
-                                                alt="Product"></a></figure>
-                                    <div class="item-content">
-                                        <span class="sub-title">CHICKEN</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
-                                                and Chanterelles</a></h3>
-                                        <ul class="item-rating">
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-empty"><i class="fas fa-star"></i></li>
-                                            <li><span>9<span> / 10</span></span> </li>
-                                        </ul>
-                                        <p>More off this less hello salamander lied porpoise much over tightly circa
-                                            outside crud mightily rigorouse. </p>
-                                        <ul class="entry-meta">
-                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
-                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
-                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="product-box-layout1">
-                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product53.jpg"
-                                                alt="Product"></a></figure>
-                                    <div class="item-content">
-                                        <span class="sub-title">CHICKEN</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
-                                                and Chanterelles</a></h3>
-                                        <ul class="item-rating">
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-empty"><i class="fas fa-star"></i></li>
-                                            <li><span>9<span> / 10</span></span> </li>
-                                        </ul>
-                                        <p>More off this less hello salamander lied porpoise much over tightly circa
-                                            outside crud mightily rigorouse. </p>
-                                        <ul class="entry-meta">
-                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
-                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
-                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="product-box-layout1">
-                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product54.jpg"
-                                                alt="Product"></a></figure>
-                                    <div class="item-content">
-                                        <span class="sub-title">CHICKEN</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
-                                                and Chanterelles</a></h3>
-                                        <ul class="item-rating">
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-empty"><i class="fas fa-star"></i></li>
-                                            <li><span>9<span> / 10</span></span> </li>
-                                        </ul>
-                                        <p>More off this less hello salamander lied porpoise much over tightly circa
-                                            outside crud mightily rigorouse. </p>
-                                        <ul class="entry-meta">
-                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
-                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
-                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="product-box-layout1">
-                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product55.jpg"
-                                                alt="Product"></a></figure>
-                                    <div class="item-content">
-                                        <span class="sub-title">CHICKEN</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
-                                                and Chanterelles</a></h3>
-                                        <ul class="item-rating">
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-empty"><i class="fas fa-star"></i></li>
-                                            <li><span>9<span> / 10</span></span> </li>
-                                        </ul>
-                                        <p>More off this less hello salamander lied porpoise much over tightly circa
-                                            outside crud mightily rigorouse. </p>
-                                        <ul class="entry-meta">
-                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
-                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
-                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="product-box-layout1">
-                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product56.jpg"
-                                                alt="Product"></a></figure>
-                                    <div class="item-content">
-                                        <span class="sub-title">CHICKEN</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
-                                                and Chanterelles</a></h3>
-                                        <ul class="item-rating">
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-empty"><i class="fas fa-star"></i></li>
-                                            <li><span>9<span> / 10</span></span> </li>
-                                        </ul>
-                                        <p>More off this less hello salamander lied porpoise much over tightly circa
-                                            outside crud mightily rigorouse. </p>
-                                        <ul class="entry-meta">
-                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
-                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
-                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="product-box-layout1">
-                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product57.jpg"
-                                                alt="Product"></a></figure>
-                                    <div class="item-content">
-                                        <span class="sub-title">CHICKEN</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
-                                                and Chanterelles</a></h3>
-                                        <ul class="item-rating">
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-empty"><i class="fas fa-star"></i></li>
-                                            <li><span>9<span> / 10</span></span> </li>
-                                        </ul>
-                                        <p>More off this less hello salamander lied porpoise much over tightly circa
-                                            outside crud mightily rigorouse. </p>
-                                        <ul class="entry-meta">
-                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
-                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
-                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="product-box-layout1">
-                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product58.jpg"
-                                                alt="Product"></a></figure>
-                                    <div class="item-content">
-                                        <span class="sub-title">CHICKEN</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
-                                                and Chanterelles</a></h3>
-                                        <ul class="item-rating">
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-empty"><i class="fas fa-star"></i></li>
-                                            <li><span>9<span> / 10</span></span> </li>
-                                        </ul>
-                                        <p>More off this less hello salamander lied porpoise much over tightly circa
-                                            outside crud mightily rigorouse. </p>
-                                        <ul class="entry-meta">
-                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
-                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
-                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="product-box-layout1">
-                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product59.jpg"
-                                                alt="Product"></a></figure>
-                                    <div class="item-content">
-                                        <span class="sub-title">CHICKEN</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
-                                                and Chanterelles</a></h3>
-                                        <ul class="item-rating">
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="star-empty"><i class="fas fa-star"></i></li>
-                                            <li><span>9<span> / 10</span></span> </li>
-                                        </ul>
-                                        <p>More off this less hello salamander lied porpoise much over tightly circa
-                                            outside crud mightily rigorouse. </p>
-                                        <ul class="entry-meta">
-                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
-                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
-                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                            <div class="item-content">
+                                <ul class="entry-meta">
+                                    <li><a href="#"><i class="fas fa-clock"></i>15 December, 2018</a></li>
+                                    <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                    <li><a href="#"><i class="fas fa-comments"></i>Comments <span>(03)</span></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i><span>59</span></a></li>
+                                </ul>
+                                <h3 class="item-title"><a href="single-blog.html">Tomatoes Stuffed with Foieand Chanter
+                                        ellesdressed your designers
+                                        had would if everyone theup still primaril</a></h3>
+                                <p>Rmply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                    galley of type and scrambledsimply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard.</p>
+                                <a href="single-blog.html" class="item-btn">Continue Reading<i class="flaticon-next"></i></a>
                             </div>
                         </div>
+                        <div class="blog-box-layout1">
+                            <div class="item-figure">
+                                <a href="single-blog.html"><img src="img/blog/blog11.jpg" alt="Blog"></a>
+                            </div>
+                            <div class="item-content">
+                                <ul class="entry-meta">
+                                    <li><a href="#"><i class="fas fa-clock"></i>15 December, 2018</a></li>
+                                    <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                    <li><a href="#"><i class="fas fa-comments"></i>Comments <span>(03)</span></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i><span>59</span></a></li>
+                                </ul>
+                                <h3 class="item-title"><a href="single-blog.html">Tomatoes Stuffed with Foieand Chanter
+                                        ellesdressed your designers
+                                        had would if everyone theup still primaril</a></h3>
+                                <p>Rmply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                    galley of type and scrambledsimply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard.</p>
+                                <a href="single-blog.html" class="item-btn">Continue Reading<i class="flaticon-next"></i></a>
+                            </div>
+                        </div>
+                        <div class="blog-box-layout1">
+                            <div class="item-figure">
+                                <a href="single-blog.html"><img src="img/blog/blog12.jpg" alt="Blog"></a>
+                            </div>
+                            <div class="item-content">
+                                <ul class="entry-meta">
+                                    <li><a href="#"><i class="fas fa-clock"></i>15 December, 2018</a></li>
+                                    <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                    <li><a href="#"><i class="fas fa-comments"></i>Comments <span>(03)</span></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i><span>59</span></a></li>
+                                </ul>
+                                <h3 class="item-title"><a href="single-blog.html">Tomatoes Stuffed with Foieand Chanter
+                                        ellesdressed your designers
+                                        had would if everyone theup still primaril</a></h3>
+                                <p>Rmply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                    galley of type and scrambledsimply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard.</p>
+                                <a href="single-blog.html" class="item-btn">Continue Reading<i class="flaticon-next"></i></a>
+                            </div>
+                        </div>
+                        <div class="blog-box-layout1">
+                            <div class="item-figure">
+                                <a href="single-blog.html"><img src="img/blog/blog13.jpg" alt="Blog"></a>
+                            </div>
+                            <div class="item-content">
+                                <ul class="entry-meta">
+                                    <li><a href="#"><i class="fas fa-clock"></i>15 December, 2018</a></li>
+                                    <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                    <li><a href="#"><i class="fas fa-comments"></i>Comments <span>(03)</span></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i><span>59</span></a></li>
+                                </ul>
+                                <h3 class="item-title"><a href="single-blog.html">Tomatoes Stuffed with Foieand Chanter
+                                        ellesdressed your designers
+                                        had would if everyone theup still primaril</a></h3>
+                                <p>Rmply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                    galley of type and scrambledsimply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard.</p>
+                                <a href="single-blog.html" class="item-btn">Continue Reading<i class="flaticon-next"></i></a>
+                            </div>
+                        </div>
+                        <ul class="pagination-layout1">
+                            <li class="active">
+                                <a href="#">1</a>
+                            </li>
+                            <li>
+                                <a href="#">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">4</a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="col-lg-4 sidebar-widget-area sidebar-break-md">
                         <div class="widget">
                             <div class="section-heading heading-dark">
-                                <h3 class="item-heading">LATEST RECIPES</h3>
+                                <h3 class="item-heading">LATEST BLOG</h3>
                             </div>
-                            <div class="widget-latest">
+                            <div class="widget-blog-post">
                                 <ul class="block-list">
                                     <li class="single-item">
                                         <div class="item-img">
                                             <a href="#"><img src="img/product/latest1.jpg" alt="Post"></a>
-                                            <div class="count-number">1</div>
                                         </div>
                                         <div class="item-content">
-                                            <div class="item-ctg">DESERT</div>
+                                            <div class="item-post-date"><a href="#"><i class="fas fa-clock"></i>15 Dec,
+                                                    2018</a></div>
                                             <h4 class="item-title"><a href="#">Salami Oven Roasted are
                                                     Mozzarella Oelette</a></h4>
                                             <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
@@ -890,10 +550,10 @@
                                     <li class="single-item">
                                         <div class="item-img">
                                             <a href="#"><img src="img/product/latest2.jpg" alt="Post"></a>
-                                            <div class="count-number">2</div>
                                         </div>
                                         <div class="item-content">
-                                            <div class="item-ctg">DESERT</div>
+                                            <div class="item-post-date"><a href="#"><i class="fas fa-clock"></i>15 Dec,
+                                                    2018</a></div>
                                             <h4 class="item-title"><a href="#">Salami Oven Roasted are
                                                     Mozzarella Oelette</a></h4>
                                             <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
@@ -903,10 +563,10 @@
                                     <li class="single-item">
                                         <div class="item-img">
                                             <a href="#"><img src="img/product/latest3.jpg" alt="Post"></a>
-                                            <div class="count-number">3</div>
                                         </div>
                                         <div class="item-content">
-                                            <div class="item-ctg">DESERT</div>
+                                            <div class="item-post-date"><a href="#"><i class="fas fa-clock"></i>15 Dec,
+                                                    2018</a></div>
                                             <h4 class="item-title"><a href="#">Salami Oven Roasted are
                                                     Mozzarella Oelette</a></h4>
                                             <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
@@ -916,10 +576,10 @@
                                     <li class="single-item">
                                         <div class="item-img">
                                             <a href="#"><img src="img/product/latest4.jpg" alt="Post"></a>
-                                            <div class="count-number">4</div>
                                         </div>
                                         <div class="item-content">
-                                            <div class="item-ctg">DESERT</div>
+                                            <div class="item-post-date"><a href="#"><i class="fas fa-clock"></i>15 Dec,
+                                                    2018</a></div>
                                             <h4 class="item-title"><a href="#">Salami Oven Roasted are
                                                     Mozzarella Oelette</a></h4>
                                             <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
@@ -946,7 +606,67 @@
                         </div>
                         <div class="widget">
                             <div class="widget-ad">
-                                <a href="#"><img src="img/figure/figure4.jpg" alt="Ad" class="img-fluid"></a>
+                                <a href="#"><img src="img/figure/figure6.jpg" alt="Ad" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <div class="section-heading heading-dark">
+                                <h3 class="item-heading">CATEGORIES</h3>
+                            </div>
+                            <div class="widget-categories">
+                                <ul>
+                                    <li>
+                                        <a href="#">BreakFast
+                                            <span>25</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Lunch
+                                            <span>15</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pasta
+                                            <span>22</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dinner
+                                            <span>18</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dessert
+                                            <span>36</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Drinks
+                                            <span>12</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Fruits
+                                            <span>05</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <div class="widget-newsletter-subscribe">
+                                <h3>GET LATEST UPDATES</h3>
+                                <p>Newsletter Subscribe</p>
+                                <form class="newsletter-subscribe-form">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="your e-mail address" class="form-control" name="email"
+                                            data-error="E-mail field is required" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group mb-none">
+                                        <button type="submit" class="item-btn">SUBSCRIBE</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                         <div class="widget">
@@ -1000,22 +720,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="widget">
-                            <div class="widget-newsletter-subscribe">
-                                <h3>GET LATEST UPDATES</h3>
-                                <p>Newsletter Subscribe</p>
-                                <form class="newsletter-subscribe-form">
-                                    <div class="form-group">
-                                        <input type="text" placeholder="your e-mail address" class="form-control" name="email"
-                                            data-error="E-mail field is required" required>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="form-group mb-none">
-                                        <button type="submit" class="item-btn">SUBSCRIBE</button>
-                                    </div>
-                                </form>
                             </div>
                         </div>
                         <div class="widget">
@@ -1121,7 +825,7 @@
                 </div>
             </div>
         </section>
-        <!-- Recipe With Sidebar Area End Here -->
+        <!-- Blog List Area End Here -->
         <!-- Footer Area Start Here -->
         <footer class="ranna-bg-dark">
             <div class="container">

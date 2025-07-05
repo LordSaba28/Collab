@@ -1,31 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ranna | Category</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.png">
-    <!-- Normalize Css -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- Main Css -->
-    <link rel="stylesheet" href="css/main.css">
-    <!-- Bootstrap Css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate.min.css">
-    <!-- Fontawesome CSS -->
-    <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    <!-- Flaticon CSS -->
-    <link rel="stylesheet" href="fonts/flaticon.css">
-    <!-- Custom Css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Modernizr Js -->
-    <script src="js/modernizr-3.6.0.min.js"></script>
-</head>
+<?php include "head.php"?>
 
 <body>
     <!--[if lte IE 9]>
@@ -413,12 +389,12 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumbs-area">
-                            <h1>Recipe Categories</h1>
+                            <h1>Single Product Page</h1>
                             <ul>
                                 <li>
                                     <a href="index.html">Home</a>
                                 </li>
-                                <li>Categories</li>
+                                <li>Product Details</li>
                             </ul>
                         </div>
                     </div>
@@ -426,134 +402,392 @@
             </div>
         </section>
         <!-- Inne Page Banner Area End Here -->
-        <!-- Category Area Start Here -->
-        <section class="category-page-wrap padding-top-80 padding-bottom-50">
+        <!-- Single Shop Page Area Start Here -->
+        <section class="single-shop-page-wrap padding-top-80 padding-bottom-70">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product29.jpg"
-                                        alt="Product"></a></figure>
-                            <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Chicken</a></h3>
-                                <span class="sub-title"> 14 Recipes</span>
+                    <div class="col-lg-7 col-12">
+                        <div class="single-shop-figure-view">
+                            <div class="row">
+                                <div class="col-lg-9 col-12 order-lg-2">
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade active show" id="related1">
+                                            <a href="#"><img alt="single" src="img/product/shop-figure14.png" data-zoom-image="img/product/product27b.png"></a>
+                                        </div>
+                                        <div class="tab-pane fade" id="related2">
+                                            <a href="#"><img alt="single" src="img/product/shop-figure15.png" data-zoom-image="img/product/product27-1b.png"></a>
+                                        </div>
+                                        <div class="tab-pane fade" id="related3">
+                                            <a href="#"><img alt="single" src="img/product/shop-figure16.png" data-zoom-image="img/product/product27-2b.png"></a>
+                                        </div>
+                                        <div class="tab-pane fade" id="related4">
+                                            <a href="#"><img alt="single" src="img/product/shop-figure17.png" data-zoom-image="img/product/product27-3b.png"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-12 order-lg-1">
+                                    <ul class="nav tab-nav tab-nav-list">
+                                        <li class="nav-item">
+                                            <a class="active" href="#related1" data-toggle="tab" aria-expanded="false"><img alt="related1" src="img/product/shop-figure10.png" class="img-fluid"></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#related2" data-toggle="tab" aria-expanded="false"><img alt="related2" src="img/product/shop-figure11.png" class="img-fluid"></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#related3" data-toggle="tab" aria-expanded="false"><img alt="related3" src="img/product/shop-figure12.png" class="img-fluid"></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#related4" data-toggle="tab" aria-expanded="false"><img alt="related4" src="img/product/shop-figure13.png" class="img-fluid"></a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product30.jpg"
-                                        alt="Product"></a></figure>
-                            <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Juice</a></h3>
-                                <span class="sub-title"> 14 Recipes</span>
+                    <div class="col-lg-5 col-12">
+                        <div class="single-shop-content">
+                            <h2 class="item-title">Kitchen Key Spone</h2>
+                            <ul class="item-rate">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><a href="#">( 01 Reviews )</a></li>
+                            </ul>
+                            <div class="item-price">$60.00<span>$60.00</span></div>
+                            <ul class="entry-meta">
+                                <li>SKU: <span>BN3056</span></li>
+                                <li>Availablity: <span>Instock</span></li>
+                                <li>Category: <a href="#">Kitchen</a></li>
+                            </ul>
+                            <ul class="item-social">
+                                <li>Share With:</li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                            </ul>
+                            <p class="item-details">Working from home meant we couldsnack and coffee our breaksert change our desks or view, good, drink on the job, even spend the weather started getting. Working from home meant we couldsnack and coffee our breaksert change.</p>
+                            <ul class="action-area1">
+                                <li id="quantity-holder">
+                                    <div class="input-group quantity-holder">
+                                        <input type="text" name='quantity' class="form-control quantity-input" value="1" placeholder="1">
+                                        <div class="input-group-btn">
+                                            <button class="quantity-btn quantity-plus" type="button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                                            <button class="quantity-btn quantity-minus" type="button"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" class="cart-btn">ADD TO CART</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="single-shop-description">
+                            <ul class="nav nav-tabs tab-nav-list">
+                                <li class="nav-item">
+                                    <a class="active" href="#related5" data-toggle="tab" aria-expanded="false">Description</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#related6" data-toggle="tab" aria-expanded="false">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#related7" data-toggle="tab" aria-expanded="false">Reviews</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade active show" id="related5">
+                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semperauris placerat eleifen deleo.
+                                </div>
+                                <div class="tab-pane fade" id="related6">
+                                    Gimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged mply dummy text of the printing and typesetting industry. Gimply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                    has been the industry's standard dummy text ever since the when an unknown printer took.
+                                </div>
+                                <div class="tab-pane fade" id="related7">
+                                    Gimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged mply dummy text of the printing and typesetting industry. Gimply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                    has been the industry's standard dummy text ever since the when an unknown printer took.
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product31.jpg"
-                                        alt="Product"></a></figure>
+                </div>
+                <div class="related-product">
+                    <div class="section-heading heading-dark">
+                        <h2 class="item-heading">REALATED PRODUCTS</h2>
+                    </div>
+                    <div class="rc-carousel dot-control-layout1" data-loop="true" data-items="9" data-margin="30"
+                        data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="700" data-dots="true"
+                        data-nav="false" data-nav-speed="false" data-r-x-small="1" data-r-x-small-nav="false"
+                        data-r-x-small-dots="true" data-r-x-medium="2" data-r-x-medium-nav="false" data-r-x-medium-dots="true"
+                        data-r-small="2" data-r-small-nav="false" data-r-small-dots="true" data-r-medium="3"
+                        data-r-medium-nav="false" data-r-medium-dots="true" data-r-large="4" data-r-large-nav="false"
+                        data-r-large-dots="true" data-r-extra-large="4" data-r-extra-large-nav="false"
+                        data-r-extra-large-dots="true">
+                        <div class="shop-box-layout1">
+                            <div class="mask-item bg--accent">
+                                <div class="item-figure">
+                                    <img src="img/product/shop-figure1.png" alt="Product">
+                                </div>
+                                <ul class="action-items">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-exchange-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">BBQ</a></h3>
-                                <span class="sub-title"> 14 Recipes</span>
+                                <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                <div class="item-price"><span class="currency">$</span>28.00</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product32.jpg"
-                                        alt="Product"></a></figure>
+                        <div class="shop-box-layout1">
+                            <div class="mask-item bg--accent">
+                                <div class="item-figure">
+                                    <img src="img/product/shop-figure2.png" alt="Product">
+                                </div>
+                                <ul class="action-items">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-exchange-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Dessert</a></h3>
-                                <span class="sub-title"> 14 Recipes</span>
+                                <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                <div class="item-price"><span class="currency">$</span>28.00</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product33.jpg"
-                                        alt="Product"></a></figure>
+                        <div class="shop-box-layout1">
+                            <div class="mask-item bg--accent">
+                                <div class="item-figure">
+                                    <img src="img/product/shop-figure3.png" alt="Product">
+                                </div>
+                                <ul class="action-items">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-exchange-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Sushi</a></h3>
-                                <span class="sub-title"> 14 Recipes</span>
+                                <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                <div class="item-price"><span class="currency">$</span>28.00</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product34.jpg"
-                                        alt="Product"></a></figure>
+                        <div class="shop-box-layout1">
+                            <div class="mask-item bg--accent">
+                                <div class="item-figure">
+                                    <img src="img/product/shop-figure4.png" alt="Product">
+                                </div>
+                                <ul class="action-items">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-exchange-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Coffee</a></h3>
-                                <span class="sub-title"> 14 Recipes</span>
+                                <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                <div class="item-price"><span class="currency">$</span>28.00</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product35.jpg"
-                                        alt="Product"></a></figure>
+                        <div class="shop-box-layout1">
+                            <div class="mask-item bg--accent">
+                                <div class="item-figure">
+                                    <img src="img/product/shop-figure5.png" alt="Product">
+                                </div>
+                                <ul class="action-items">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-exchange-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Pizza</a></h3>
-                                <span class="sub-title"> 14 Recipes</span>
+                                <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                <div class="item-price"><span class="currency">$</span>28.00</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product36.jpg"
-                                        alt="Product"></a></figure>
+                        <div class="shop-box-layout1">
+                            <div class="mask-item bg--accent">
+                                <div class="item-figure">
+                                    <img src="img/product/shop-figure6.png" alt="Product">
+                                </div>
+                                <ul class="action-items">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-exchange-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Vegan</a></h3>
-                                <span class="sub-title"> 14 Recipes</span>
+                                <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                <div class="item-price"><span class="currency">$</span>28.00</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product37.jpg"
-                                        alt="Product"></a></figure>
+                        <div class="shop-box-layout1">
+                            <div class="mask-item bg--accent">
+                                <div class="item-figure">
+                                    <img src="img/product/shop-figure7.png" alt="Product">
+                                </div>
+                                <ul class="action-items">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-exchange-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Salad</a></h3>
-                                <span class="sub-title"> 14 Recipes</span>
+                                <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                <div class="item-price"><span class="currency">$</span>28.00</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product33.jpg"
-                                        alt="Product"></a></figure>
+                        <div class="shop-box-layout1">
+                            <div class="mask-item bg--accent">
+                                <div class="item-figure">
+                                    <img src="img/product/shop-figure8.png" alt="Product">
+                                </div>
+                                <ul class="action-items">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-exchange-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Sushi</a></h3>
-                                <span class="sub-title"> 14 Recipes</span>
+                                <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                <div class="item-price"><span class="currency">$</span>28.00</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product34.jpg"
-                                        alt="Product"></a></figure>
-                            <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Coffee</a></h3>
-                                <span class="sub-title"> 14 Recipes</span>
+                        <div class="shop-box-layout1">
+                            <div class="mask-item bg--accent">
+                                <div class="item-figure">
+                                    <img src="img/product/shop-figure9.png" alt="Product">
+                                </div>
+                                <ul class="action-items">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-exchange-alt"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product35.jpg"
-                                        alt="Product"></a></figure>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Pizza</a></h3>
-                                <span class="sub-title"> 14 Recipes</span>
+                                <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                <div class="item-price"><span class="currency">$</span>28.00</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Category Area End Here -->
+        <!-- Single Shop Page Area End Here -->
         <!-- Footer Area Start Here -->
         <footer class="ranna-bg-dark">
             <div class="container">
@@ -630,6 +864,8 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Plugins Js -->
     <script src="js/plugins.js"></script>
+    <!-- Owl Carousel Js -->
+    <script src="js/owl.carousel.min.js"></script>
     <!-- Smoothscroll Js -->
     <script src="js/smoothscroll.min.js"></script>
     <!-- Custom Js -->

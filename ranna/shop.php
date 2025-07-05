@@ -1,31 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ranna | All Author</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.png">
-    <!-- Normalize Css -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- Main Css -->
-    <link rel="stylesheet" href="css/main.css">
-    <!-- Bootstrap Css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate.min.css">
-    <!-- Fontawesome CSS -->
-    <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    <!-- Flaticon CSS -->
-    <link rel="stylesheet" href="fonts/flaticon.css">
-    <!-- Custom Css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Modernizr Js -->
-    <script src="js/modernizr-3.6.0.min.js"></script>
-</head>
+<?php include "head.php"?>
 
 <body>
     <!--[if lte IE 9]>
@@ -413,12 +389,12 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumbs-area">
-                            <h1>Our All Author</h1>
+                            <h1>Our Shop Page</h1>
                             <ul>
                                 <li>
                                     <a href="index.html">Home</a>
                                 </li>
-                                <li>Author Page</li>
+                                <li>Shop Page</li>
                             </ul>
                         </div>
                     </div>
@@ -426,405 +402,522 @@
             </div>
         </section>
         <!-- Inne Page Banner Area End Here -->
-        <!-- Author Area Start Here -->
-        <section class="author-page-wrap padding-top-80 padding-bottom-50">
+        <!-- Shop Page Area Start Here -->
+        <section class="shop-page-wrap padding-top-74 padding-bottom-50">
             <div class="container">
                 <div class="row gutters-60">
                     <div class="col-lg-8">
-                        <div class="author-box-layout1">
-                            <div class="adv-search-wrap">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Author Name Search . . ." />
-                                    <div class="btn-group">
-                                        <div class="input-group-btn">
-                                            <button type="submit" class="btn-search"><i class="flaticon-search"></i></button>
+                        <div class="d-sm-flex justify-content-between align-items-center">
+                            <div class="section-heading heading-dark">
+                                <h2 class="item-heading">SHOWING 16-24 OF 50 RESULTS</h2>
+                            </div>
+                            <div class="filter-box">
+                                <select class="select2" name="filter-by">
+                                    <option value="0">Breakfast</option>
+                                    <option value="1">Newest</option>
+                                    <option value="2">Top Sell</option>
+                                    <option value="3">Top Rated</option>
+                                    <option value="4">Price High</option>
+                                    <option value="5">Low Price</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <div class="shop-box-layout1">
+                                    <div class="mask-item bg--accent">
+                                        <div class="item-figure">
+                                            <img src="img/product/shop-figure1.png" alt="Product">
                                         </div>
+                                        <ul class="action-items">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-exchange-alt"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                        <div class="item-price"><span class="currency">$</span>28.00</div>
                                     </div>
                                 </div>
                             </div>
-                            <h3 class="author-section-title">Total 1,050 Authors</h3>
-                            <div class="table-responsive">
-                                <table class="table table-striped">
-                                    <tbody>
-                                        <tr>
-                                            <th>
-                                                <div class="author-personal-info">
-                                                    <a href="#" class="item-figure"><img src="img/blog/author2.jpg" alt="Author"></a>
-                                                    <div class="item-content">
-                                                        <div class="item-title"><a href="#">Mark Willy</a></div>
-                                                        <div class="item-designation">Dessert Specialist</div>
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="author-social-info">
-                                                    <ul>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Recipes</h4>
-                                                                <span class="item-number">15</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Reviews</h4>
-                                                                <span class="item-number">29</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Favourite</h4>
-                                                                <span class="item-number">35+</span>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>
-                                                <div class="author-personal-info">
-                                                    <a href="#" class="item-figure"><img src="img/blog/author3.jpg" alt="Author"></a>
-                                                    <div class="item-content">
-                                                        <div class="item-title"><a href="#">Abul Hassan</a></div>
-                                                        <div class="item-designation">Dessert Specialist</div>
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="author-social-info">
-                                                    <ul>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Recipes</h4>
-                                                                <span class="item-number">16</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Reviews</h4>
-                                                                <span class="item-number">41</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Favourite</h4>
-                                                                <span class="item-number">17+</span>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>
-                                                <div class="author-personal-info">
-                                                    <a href="#" class="item-figure"><img src="img/blog/author4.jpg" alt="Author"></a>
-                                                    <div class="item-content">
-                                                        <div class="item-title"><a href="#">Liza Zaman</a></div>
-                                                        <div class="item-designation">Dessert Specialist</div>
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="author-social-info">
-                                                    <ul>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Recipes</h4>
-                                                                <span class="item-number">10</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Reviews</h4>
-                                                                <span class="item-number">25</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Favourite</h4>
-                                                                <span class="item-number">19+</span>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>
-                                                <div class="author-personal-info">
-                                                    <a href="#" class="item-figure"><img src="img/blog/author5.jpg" alt="Author"></a>
-                                                    <div class="item-content">
-                                                        <div class="item-title"><a href="#">Mark Willy</a></div>
-                                                        <div class="item-designation">Dessert Specialist</div>
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="author-social-info">
-                                                    <ul>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Recipes</h4>
-                                                                <span class="item-number">14</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Reviews</h4>
-                                                                <span class="item-number">25</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Favourite</h4>
-                                                                <span class="item-number">28+</span>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>
-                                                <div class="author-personal-info">
-                                                    <a href="#" class="item-figure"><img src="img/blog/author6.jpg" alt="Author"></a>
-                                                    <div class="item-content">
-                                                        <div class="item-title"><a href="#">Liza Zaman</a></div>
-                                                        <div class="item-designation">Dessert Specialist</div>
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="author-social-info">
-                                                    <ul>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Recipes</h4>
-                                                                <span class="item-number">9</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Reviews</h4>
-                                                                <span class="item-number">21</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Favourite</h4>
-                                                                <span class="item-number">40+</span>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>
-                                                <div class="author-personal-info">
-                                                    <a href="#" class="item-figure"><img src="img/blog/author7.jpg" alt="Author"></a>
-                                                    <div class="item-content">
-                                                        <div class="item-title"><a href="#">Mark Willy</a></div>
-                                                        <div class="item-designation">Dessert Specialist</div>
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="author-social-info">
-                                                    <ul>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Recipes</h4>
-                                                                <span class="item-number">9</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Reviews</h4>
-                                                                <span class="item-number">26</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Favourite</h4>
-                                                                <span class="item-number">17+</span>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>
-                                                <div class="author-personal-info">
-                                                    <a href="#" class="item-figure"><img src="img/blog/author8.jpg" alt="Author"></a>
-                                                    <div class="item-content">
-                                                        <div class="item-title"><a href="#">Mark Willy</a></div>
-                                                        <div class="item-designation">Dessert Specialist</div>
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="author-social-info">
-                                                    <ul>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Recipes</h4>
-                                                                <span class="item-number">13</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Reviews</h4>
-                                                                <span class="item-number">40</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Favourite</h4>
-                                                                <span class="item-number">23+</span>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th>
-                                                <div class="author-personal-info">
-                                                    <a href="#" class="item-figure"><img src="img/blog/author3.jpg" alt="Author"></a>
-                                                    <div class="item-content">
-                                                        <div class="item-title"><a href="#">Mark Willy</a></div>
-                                                        <div class="item-designation">Dessert Specialist</div>
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="author-social-info">
-                                                    <ul>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Recipes</h4>
-                                                                <span class="item-number">18</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Reviews</h4>
-                                                                <span class="item-number">28</span>
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div>
-                                                                <h4 class="item-title">Favourite</h4>
-                                                                <span class="item-number">10+</span>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <div class="shop-box-layout1">
+                                    <div class="mask-item bg--accent">
+                                        <div class="item-figure">
+                                            <img src="img/product/shop-figure2.png" alt="Product">
+                                        </div>
+                                        <ul class="action-items">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-exchange-alt"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                    </div>
+                                </div>
                             </div>
-                            <ul class="pagination-layout1">
-                                <li class="active">
-                                    <a href="#">1</a>
-                                </li>
-                                <li>
-                                    <a href="#">2</a>
-                                </li>
-                                <li>
-                                    <a href="#">3</a>
-                                </li>
-                                <li>
-                                    <a href="#">4</a>
-                                </li>
-                            </ul>
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <div class="shop-box-layout1">
+                                    <div class="mask-item bg--accent">
+                                        <div class="item-figure">
+                                            <img src="img/product/shop-figure3.png" alt="Product">
+                                        </div>
+                                        <ul class="action-items">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-exchange-alt"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <div class="shop-box-layout1">
+                                    <div class="mask-item bg--accent">
+                                        <div class="item-figure">
+                                            <img src="img/product/shop-figure4.png" alt="Product">
+                                        </div>
+                                        <ul class="action-items">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-exchange-alt"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <div class="shop-box-layout1">
+                                    <div class="mask-item bg--accent">
+                                        <div class="item-figure">
+                                            <img src="img/product/shop-figure5.png" alt="Product">
+                                        </div>
+                                        <ul class="action-items">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-exchange-alt"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <div class="shop-box-layout1">
+                                    <div class="mask-item bg--accent">
+                                        <div class="item-figure">
+                                            <img src="img/product/shop-figure6.png" alt="Product">
+                                        </div>
+                                        <ul class="action-items">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-exchange-alt"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <div class="shop-box-layout1">
+                                    <div class="mask-item bg--accent">
+                                        <div class="item-figure">
+                                            <img src="img/product/shop-figure7.png" alt="Product">
+                                        </div>
+                                        <ul class="action-items">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-exchange-alt"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <div class="shop-box-layout1">
+                                    <div class="mask-item bg--accent">
+                                        <div class="item-figure">
+                                            <img src="img/product/shop-figure8.png" alt="Product">
+                                        </div>
+                                        <ul class="action-items">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-exchange-alt"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <div class="shop-box-layout1">
+                                    <div class="mask-item bg--accent">
+                                        <div class="item-figure">
+                                            <img src="img/product/shop-figure9.png" alt="Product">
+                                        </div>
+                                        <ul class="action-items">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-exchange-alt"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <div class="shop-box-layout1">
+                                    <div class="mask-item bg--accent">
+                                        <div class="item-figure">
+                                            <img src="img/product/shop-figure1.png" alt="Product">
+                                        </div>
+                                        <ul class="action-items">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-exchange-alt"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <div class="shop-box-layout1">
+                                    <div class="mask-item bg--accent">
+                                        <div class="item-figure">
+                                            <img src="img/product/shop-figure2.png" alt="Product">
+                                        </div>
+                                        <ul class="action-items">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-exchange-alt"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-12">
+                                <div class="shop-box-layout1">
+                                    <div class="mask-item bg--accent">
+                                        <div class="item-figure">
+                                            <img src="img/product/shop-figure3.png" alt="Product">
+                                        </div>
+                                        <ul class="action-items">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-exchange-alt"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item-content">
+                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
+                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <ul class="pagination-layout1">
+                            <li class="active">
+                                <a href="#">1</a>
+                            </li>
+                            <li>
+                                <a href="#">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">4</a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="col-lg-4 sidebar-widget-area sidebar-break-md">
                         <div class="widget">
                             <div class="section-heading heading-dark">
-                                <h3 class="item-heading">ABOUT ME</h3>
+                                <h3 class="item-heading">CATEGORIES</h3>
                             </div>
-                            <div class="widget-about">
-                                <figure class="author-figure"><img src="img/figure/about.jpg" alt="about"></figure>
-                                <figure class="author-signature"><img src="img/figure/signature.png" alt="about"></figure>
-                                <p>Fusce mauris auctor ollicituder teary iner hendrerit risusey aeenean rauctor pibus
-                                    doloer.</p>
+                            <div class=" widget-search">
+                                <div class="input-group stylish-input-group">
+                                    <input type="text" class="form-control" placeholder="Search product . . .">
+                                    <span class="input-group-addon">
+                                        <button type="submit">
+                                            <span class="flaticon-magnifying-glass" aria-hidden="true"></span>
+                                        </button>
+                                    </span>
+                                </div>
                             </div>
                         </div>
                         <div class="widget">
                             <div class="section-heading heading-dark">
-                                <h3 class="item-heading">SUBSCRIBE &amp; FOLLOW</h3>
+                                <h3 class="item-heading">CATEGORIES</h3>
                             </div>
-                            <div class="widget-follow-us">
+                            <div class="widget-categories">
                                 <ul>
-                                    <li class="single-item"><a href="#"><i class="fab fa-facebook-f"></i>LIKE ME ON</a></li>
-                                    <li class="single-item"><a href="#"><i class="fab fa-twitter"></i>LIKE ME</a></li>
-                                    <li class="single-item"><a href="#"><i class="fab fa-linkedin-in"></i>LIKE ME</a></li>
-                                    <li class="single-item"><a href="#"><i class="fab fa-pinterest-p"></i>LIKE ME</a></li>
-                                    <li class="single-item"><a href="#"><i class="fab fa-instagram"></i>LIKE ME</a></li>
-                                    <li class="single-item"><a href="#"><i class="fab fa-youtube"></i>Subscribe</a></li>
+                                    <li>
+                                        <a href="#">BreakFast
+                                            <span>25</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Lunch
+                                            <span>15</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pasta
+                                            <span>22</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dinner
+                                            <span>18</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dessert
+                                            <span>36</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Drinks
+                                            <span>12</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Fruits
+                                            <span>05</span>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="widget">
                             <div class="section-heading heading-dark">
-                                <h3 class="item-heading">LATEST RECIPES</h3>
+                                <h3 class="item-heading">TOP PRODUCTS</h3>
                             </div>
-                            <div class="widget-latest">
+                            <div class="widget-top-product">
                                 <ul class="block-list">
                                     <li class="single-item">
                                         <div class="item-img">
-                                            <a href="#"><img src="img/product/latest1.jpg" alt="Post"></a>
-                                            <div class="count-number">1</div>
+                                            <a href="single-shop.html" class="item-icon"><i class="flaticon-plus-1"></i></a>
+                                            <img src="img/product/top-product1.jpg" alt="Post">
                                         </div>
                                         <div class="item-content">
-                                            <div class="item-ctg">DESERT</div>
-                                            <h4 class="item-title"><a href="#">Salami Oven Roasted are
-                                                    Mozzarella Oelette</a></h4>
-                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
-                                                    John Martin</a></div>
+                                            <h4 class="item-title"><a href="#">Kitchen Product</a></h4>
+                                            <div class="item-price"><span class="item-currency">$</span>15.00</div>
                                         </div>
                                     </li>
                                     <li class="single-item">
                                         <div class="item-img">
-                                            <a href="#"><img src="img/product/latest2.jpg" alt="Post"></a>
-                                            <div class="count-number">2</div>
+                                            <a href="single-shop.html" class="item-icon"><i class="flaticon-plus-1"></i></a>
+                                            <img src="img/product/top-product2.jpg" alt="Post">
                                         </div>
                                         <div class="item-content">
-                                            <div class="item-ctg">DESERT</div>
-                                            <h4 class="item-title"><a href="#">Salami Oven Roasted are
-                                                    Mozzarella Oelette</a></h4>
-                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
-                                                    John Martin</a></div>
+                                            <h4 class="item-title"><a href="#">Kitchen Product</a></h4>
+                                            <div class="item-price"><span class="item-currency">$</span>25.00</div>
                                         </div>
                                     </li>
                                     <li class="single-item">
                                         <div class="item-img">
-                                            <a href="#"><img src="img/product/latest3.jpg" alt="Post"></a>
-                                            <div class="count-number">3</div>
+                                            <a href="single-shop.html" class="item-icon"><i class="flaticon-plus-1"></i></a>
+                                            <img src="img/product/top-product3.jpg" alt="Post">
                                         </div>
                                         <div class="item-content">
-                                            <div class="item-ctg">DESERT</div>
-                                            <h4 class="item-title"><a href="#">Salami Oven Roasted are
-                                                    Mozzarella Oelette</a></h4>
-                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
-                                                    John Martin</a></div>
+                                            <h4 class="item-title"><a href="#">Kitchen Product</a></h4>
+                                            <div class="item-price"><span class="item-currency">$</span>29.00</div>
+                                        </div>
+                                    </li>
+                                    <li class="single-item">
+                                        <div class="item-img">
+                                            <a href="single-shop.html" class="item-icon"><i class="flaticon-plus-1"></i></a>
+                                            <img src="img/product/top-product4.jpg" alt="Post">
+                                        </div>
+                                        <div class="item-content">
+                                            <h4 class="item-title"><a href="#">Kitchen Product</a></h4>
+                                            <div class="item-price"><span class="item-currency">$</span>10.00</div>
                                         </div>
                                     </li>
                                 </ul>
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <div class="widget-ad">
+                                <a href="#"><img src="img/figure/figure5.jpg" alt="Ad" class="img-fluid"></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Author Area End Here -->
+        <!-- Shop Page Area End Here -->
         <!-- Footer Area Start Here -->
         <footer class="ranna-bg-dark">
             <div class="container">
@@ -901,6 +994,8 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Plugins Js -->
     <script src="js/plugins.js"></script>
+    <!-- Select 2 Js -->
+    <script src="js/select2.full.min.js"></script>
     <!-- Smoothscroll Js -->
     <script src="js/smoothscroll.min.js"></script>
     <!-- Custom Js -->

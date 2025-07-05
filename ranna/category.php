@@ -1,31 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ranna | Login</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.png">
-    <!-- Normalize Css -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- Main Css -->
-    <link rel="stylesheet" href="css/main.css">
-    <!-- Bootstrap Css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate.min.css">
-    <!-- Fontawesome CSS -->
-    <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    <!-- Flaticon CSS -->
-    <link rel="stylesheet" href="fonts/flaticon.css">
-    <!-- Custom Css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Modernizr Js -->
-    <script src="js/modernizr-3.6.0.min.js"></script>
-</head>
+<?php include "head.php"?>
 
 <body>
     <!--[if lte IE 9]>
@@ -413,12 +389,12 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumbs-area">
-                            <h1>User Login Page</h1>
+                            <h1>Recipe Categories</h1>
                             <ul>
                                 <li>
                                     <a href="index.html">Home</a>
                                 </li>
-                                <li>Login</li>
+                                <li>Categories</li>
                             </ul>
                         </div>
                     </div>
@@ -426,70 +402,134 @@
             </div>
         </section>
         <!-- Inne Page Banner Area End Here -->
-        <!-- Login Area Start Here -->
-        <section class="login-page-wrap padding-top-80 padding-bottom-50">
+        <!-- Category Area Start Here -->
+        <section class="category-page-wrap padding-top-80 padding-bottom-50">
             <div class="container">
-                <div class="row gutters-60">
-                    <div class="col-lg-8">
-                        <div class="login-box-layout1">
-                            <div class="section-heading heading-dark">
-                                <h2 class="item-heading">LOGIN FORM</h2>
-                            </div>
-                            <form class="login-form">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <label class="mb-3">Username or Email Address</label>
-                                        <input class="main-input-box" type="text" placeholder="" />
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label class="mb-3">Password</label>
-                                        <input class="main-input-box" type="password" placeholder="" />
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="checkbox checkbox-primary">
-                                            <input id="checkbox1" type="checkbox">
-                                            <label for="checkbox1">Remember Me</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label class="lost-password"><a href="#">Lost your password?</a></label>
-                                    </div>
-                                </div>
-                                <div class="btn-area">
-                                    <button class="btn-fill btn-primary" type="submit" value="Login">Login<i class="flaticon-next"></i></button>
-                                    <button class="btn-fill btn-dark" type="submit" value="Login">Creat an Accont<i class="flaticon-next"></i></button>
-                                </div>
-                            </form>
-                            <label>Or Connect With Social Networks</label>
-                            <div class="login-box-social">
-                                <ul>
-                                    <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="#" class="google"><i class="fab fa-google-plus-g"></i></a></li>
-                                </ul>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="category-box-layout1">
+                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product29.jpg"
+                                        alt="Product"></a></figure>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="single-recipe1.html">Chicken</a></h3>
+                                <span class="sub-title"> 14 Recipes</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 sidebar-widget-area sidebar-break-md">
-                        <div class="widget">
-                            <div class="section-heading heading-dark">
-                                <h3 class="item-heading">ABOUT ME</h3>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="category-box-layout1">
+                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product30.jpg"
+                                        alt="Product"></a></figure>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="single-recipe1.html">Juice</a></h3>
+                                <span class="sub-title"> 14 Recipes</span>
                             </div>
-                            <div class="widget-about">
-                                <figure class="author-figure"><img src="img/figure/about.jpg" alt="about"></figure>
-                                <figure class="author-signature"><img src="img/figure/signature.png" alt="about"></figure>
-                                <p>Fusce mauris auctor ollicituder teary iner hendrerit risusey aeenean rauctor pibus
-                                    doloer.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="category-box-layout1">
+                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product31.jpg"
+                                        alt="Product"></a></figure>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="single-recipe1.html">BBQ</a></h3>
+                                <span class="sub-title"> 14 Recipes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="category-box-layout1">
+                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product32.jpg"
+                                        alt="Product"></a></figure>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="single-recipe1.html">Dessert</a></h3>
+                                <span class="sub-title"> 14 Recipes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="category-box-layout1">
+                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product33.jpg"
+                                        alt="Product"></a></figure>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="single-recipe1.html">Sushi</a></h3>
+                                <span class="sub-title"> 14 Recipes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="category-box-layout1">
+                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product34.jpg"
+                                        alt="Product"></a></figure>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="single-recipe1.html">Coffee</a></h3>
+                                <span class="sub-title"> 14 Recipes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="category-box-layout1">
+                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product35.jpg"
+                                        alt="Product"></a></figure>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="single-recipe1.html">Pizza</a></h3>
+                                <span class="sub-title"> 14 Recipes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="category-box-layout1">
+                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product36.jpg"
+                                        alt="Product"></a></figure>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="single-recipe1.html">Vegan</a></h3>
+                                <span class="sub-title"> 14 Recipes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="category-box-layout1">
+                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product37.jpg"
+                                        alt="Product"></a></figure>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="single-recipe1.html">Salad</a></h3>
+                                <span class="sub-title"> 14 Recipes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="category-box-layout1">
+                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product33.jpg"
+                                        alt="Product"></a></figure>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="single-recipe1.html">Sushi</a></h3>
+                                <span class="sub-title"> 14 Recipes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="category-box-layout1">
+                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product34.jpg"
+                                        alt="Product"></a></figure>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="single-recipe1.html">Coffee</a></h3>
+                                <span class="sub-title"> 14 Recipes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="category-box-layout1">
+                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product35.jpg"
+                                        alt="Product"></a></figure>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="single-recipe1.html">Pizza</a></h3>
+                                <span class="sub-title"> 14 Recipes</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Login Area End Here -->
+        <!-- Category Area End Here -->
         <!-- Footer Area Start Here -->
         <footer class="ranna-bg-dark">
             <div class="container">

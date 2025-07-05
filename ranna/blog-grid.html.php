@@ -1,31 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ranna | About Us</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.png">
-    <!-- Normalize Css -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- Main Css -->
-    <link rel="stylesheet" href="css/main.css">
-    <!-- Bootstrap Css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate.min.css">
-    <!-- Fontawesome CSS -->
-    <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    <!-- Flaticon CSS -->
-    <link rel="stylesheet" href="fonts/flaticon.css">
-    <!-- Custom Css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Modernizr Js -->
-    <script src="js/modernizr-3.6.0.min.js"></script>
-</head>
+<?php include "head.php"?>
 
 <body>
     <!--[if lte IE 9]>
@@ -413,12 +389,12 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumbs-area">
-                            <h1>About Us</h1>
+                            <h1>Grid Blog Page</h1>
                             <ul>
                                 <li>
                                     <a href="index.html">Home</a>
                                 </li>
-                                <li>About</li>
+                                <li>Blog</li>
                             </ul>
                         </div>
                     </div>
@@ -426,52 +402,246 @@
             </div>
         </section>
         <!-- Inne Page Banner Area End Here -->
-        <!-- Recipe With Sidebar Area Start Here -->
-        <section class="all-recipes-page-wrap padding-top-80 padding-bottom-50">
+        <!-- Blog Grid Area Start Here -->
+        <section class="blog-grid-page-wrap padding-top-80 padding-bottom-50">
             <div class="container">
                 <div class="row gutters-60">
                     <div class="col-lg-8">
-                        <div class="about-box">
-                            <div class="about-figure">
-                                <img src="img/figure/about2.jpg" alt="About">
-                            </div>
-                            <h2 class="about-title title-bar bar-center">Rosario Kareon</h2>
-                            <p class="item-description">More off this less hello salamander lied porpoise much over tightly circa horse taped so innocuously side crudey mightily rigorous plot life. New homes in particular are subject.All recipes created with FoodiePress have suport for Micoformats and Google Recipe View. Schema.org is a collaboration byo improve the web by creatinegaera structured data markupore off this less hello salamander lied 
-                                    porpoise much over tightlyapedey innocuouslylife.</p>
-                            <div class="section-heading heading-dark">
-                                <h2 class="item-heading">QUICK CONTACT ME</h2>
-                            </div>
-                            <form class="about-contact-form">
-                                <div class="row">
-                                    <div class="col-md-4 form-group">
-                                        <input type="text" placeholder="Name *" class="form-control" name="name" data-error="Name field is required"
-                                            required>
-                                        <div class="help-block with-errors"></div>
+                        <div class="row">
+                            <div class="col-sm-6 col-12">
+                                <div class="blog-box-layout1">
+                                    <div class="item-figure">
+                                        <a href="single-blog.html"><img src="img/blog/blog1.jpg" alt="Blog"></a>
                                     </div>
-                                    <div class="col-md-4 form-group">
-                                        <input type="email" placeholder="E-mail *" class="form-control" name="email" data-error="E-mail field is required"
-                                            required>
-                                        <div class="help-block with-errors"></div>
+                                    <div class="item-content">
+                                        <ul class="entry-meta">
+                                            <li><a href="#"><i class="fas fa-clock"></i>15 December, 2018</a></li>
+                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                        </ul>
+                                        <h3 class="item-title"><a href="single-blog.html">Tomatoes Stuffed with Foieand
+                                                area
+                                                everyone still primaril</a></h3>
+                                        <p>Rmply dummy text of the printing and typesettingindu
+                                            stry. Lorem Ipsum has been the industry's standard dummy text ever since.
+                                        </p>
+                                        <a href="single-blog.html" class="item-btn">Continue Reading<i class="flaticon-next"></i></a>
                                     </div>
-                                    <div class="col-md-4 form-group">
-                                        <input type="text" placeholder="Phone *" class="form-control" name="phone"
-                                            data-error="Subject field is required" required>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="col-12 form-group">
-                                        <textarea placeholder="Message" class="textarea form-control" name="message" id="form-message"
-                                            rows="7" cols="20" data-error="Message field is required" required></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="col-12 form-group mb-0 mt-3">
-                                        <button type="submit" class="item-btn">SEND MESSAGE</button>
-                                    </div>
-                                    <div class="form-response"></div>
                                 </div>
-                            </form>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <div class="blog-box-layout1">
+                                    <div class="item-figure">
+                                        <a href="single-blog.html"><img src="img/blog/blog2.jpg" alt="Blog"></a>
+                                    </div>
+                                    <div class="item-content">
+                                        <ul class="entry-meta">
+                                            <li><a href="#"><i class="fas fa-clock"></i>15 December, 2018</a></li>
+                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                        </ul>
+                                        <h3 class="item-title"><a href="single-blog.html">Tomatoes Stuffed with Foieand
+                                                area
+                                                everyone still primaril</a></h3>
+                                        <p>Rmply dummy text of the printing and typesettingindu
+                                            stry. Lorem Ipsum has been the industry's standard dummy text ever since.
+                                        </p>
+                                        <a href="single-blog.html" class="item-btn">Continue Reading<i class="flaticon-next"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <div class="blog-box-layout1">
+                                    <div class="item-figure">
+                                        <a href="single-blog.html"><img src="img/blog/blog3.jpg" alt="Blog"></a>
+                                    </div>
+                                    <div class="item-content">
+                                        <ul class="entry-meta">
+                                            <li><a href="#"><i class="fas fa-clock"></i>15 December, 2018</a></li>
+                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                        </ul>
+                                        <h3 class="item-title"><a href="single-blog.html">Tomatoes Stuffed with Foieand
+                                                area
+                                                everyone still primaril</a></h3>
+                                        <p>Rmply dummy text of the printing and typesettingindu
+                                            stry. Lorem Ipsum has been the industry's standard dummy text ever since.
+                                        </p>
+                                        <a href="single-blog.html" class="item-btn">Continue Reading<i class="flaticon-next"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <div class="blog-box-layout1">
+                                    <div class="item-figure">
+                                        <a href="single-blog.html"><img src="img/blog/blog4.jpg" alt="Blog"></a>
+                                    </div>
+                                    <div class="item-content">
+                                        <ul class="entry-meta">
+                                            <li><a href="#"><i class="fas fa-clock"></i>15 December, 2018</a></li>
+                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                        </ul>
+                                        <h3 class="item-title"><a href="single-blog.html">Tomatoes Stuffed with Foieand
+                                                area
+                                                everyone still primaril</a></h3>
+                                        <p>Rmply dummy text of the printing and typesettingindu
+                                            stry. Lorem Ipsum has been the industry's standard dummy text ever since.
+                                        </p>
+                                        <a href="single-blog.html" class="item-btn">Continue Reading<i class="flaticon-next"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <div class="blog-box-layout1">
+                                    <div class="item-figure">
+                                       <a href="single-blog.html"><img src="img/blog/blog5.jpg" alt="Blog"></a>
+                                    </div>
+                                    <div class="item-content">
+                                        <ul class="entry-meta">
+                                            <li><a href="#"><i class="fas fa-clock"></i>15 December, 2018</a></li>
+                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                        </ul>
+                                        <h3 class="item-title"><a href="single-blog.html">Tomatoes Stuffed with Foieand
+                                                area
+                                                everyone still primaril</a></h3>
+                                        <p>Rmply dummy text of the printing and typesettingindu
+                                            stry. Lorem Ipsum has been the industry's standard dummy text ever since.
+                                        </p>
+                                        <a href="single-blog.html" class="item-btn">Continue Reading<i class="flaticon-next"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <div class="blog-box-layout1">
+                                    <div class="item-figure">
+                                        <a href="single-blog.html"><img src="img/blog/blog6.jpg" alt="Blog"></a>
+                                    </div>
+                                    <div class="item-content">
+                                        <ul class="entry-meta">
+                                            <li><a href="#"><i class="fas fa-clock"></i>15 December, 2018</a></li>
+                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                        </ul>
+                                        <h3 class="item-title"><a href="single-blog.html">Tomatoes Stuffed with Foieand
+                                                area
+                                                everyone still primaril</a></h3>
+                                        <p>Rmply dummy text of the printing and typesettingindu
+                                            stry. Lorem Ipsum has been the industry's standard dummy text ever since.
+                                        </p>
+                                        <a href="single-blog.html" class="item-btn">Continue Reading<i class="flaticon-next"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <div class="blog-box-layout1">
+                                    <div class="item-figure">
+                                        <a href="single-blog.html"><img src="img/blog/blog7.jpg" alt="Blog"></a>
+                                    </div>
+                                    <div class="item-content">
+                                        <ul class="entry-meta">
+                                            <li><a href="#"><i class="fas fa-clock"></i>15 December, 2018</a></li>
+                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                        </ul>
+                                        <h3 class="item-title"><a href="single-blog.html">Tomatoes Stuffed with Foieand
+                                                area
+                                                everyone still primaril</a></h3>
+                                        <p>Rmply dummy text of the printing and typesettingindu
+                                            stry. Lorem Ipsum has been the industry's standard dummy text ever since.
+                                        </p>
+                                        <a href="single-blog.html" class="item-btn">Continue Reading<i class="flaticon-next"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <div class="blog-box-layout1">
+                                    <div class="item-figure">
+                                        <a href="single-blog.html"><img src="img/blog/blog8.jpg" alt="Blog"></a>
+                                    </div>
+                                    <div class="item-content">
+                                        <ul class="entry-meta">
+                                            <li><a href="#"><i class="fas fa-clock"></i>15 December, 2018</a></li>
+                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                        </ul>
+                                        <h3 class="item-title"><a href="single-blog.html">Tomatoes Stuffed with Foieand
+                                                area
+                                                everyone still primaril</a></h3>
+                                        <p>Rmply dummy text of the printing and typesettingindu
+                                            stry. Lorem Ipsum has been the industry's standard dummy text ever since.
+                                        </p>
+                                        <a href="single-blog.html" class="item-btn">Continue Reading<i class="flaticon-next"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <ul class="pagination-layout1">
+                            <li class="active">
+                                <a href="#">1</a>
+                            </li>
+                            <li>
+                                <a href="#">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">4</a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="col-lg-4 sidebar-widget-area sidebar-break-md">
+                        <div class="widget">
+                            <div class="section-heading heading-dark">
+                                <h3 class="item-heading">LATEST BLOG</h3>
+                            </div>
+                            <div class="widget-blog-post">
+                                <ul class="block-list">
+                                    <li class="single-item">
+                                        <div class="item-img">
+                                            <a href="#"><img src="img/product/latest1.jpg" alt="Post"></a>
+                                        </div>
+                                        <div class="item-content">
+                                            <div class="item-post-date"><a href="#"><i class="fas fa-clock"></i>15 Dec, 2018</a></div>
+                                            <h4 class="item-title"><a href="#">Salami Oven Roasted are
+                                                    Mozzarella Oelette</a></h4>
+                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
+                                                    John Martin</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="single-item">
+                                        <div class="item-img">
+                                            <a href="#"><img src="img/product/latest2.jpg" alt="Post"></a>
+                                        </div>
+                                        <div class="item-content">
+                                            <div class="item-post-date"><a href="#"><i class="fas fa-clock"></i>15 Dec, 2018</a></div>
+                                            <h4 class="item-title"><a href="#">Salami Oven Roasted are
+                                                    Mozzarella Oelette</a></h4>
+                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
+                                                    John Martin</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="single-item">
+                                        <div class="item-img">
+                                            <a href="#"><img src="img/product/latest3.jpg" alt="Post"></a>
+                                        </div>
+                                        <div class="item-content">
+                                            <div class="item-post-date"><a href="#"><i class="fas fa-clock"></i>15 Dec, 2018</a></div>
+                                            <h4 class="item-title"><a href="#">Salami Oven Roasted are
+                                                    Mozzarella Oelette</a></h4>
+                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
+                                                    John Martin</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="single-item">
+                                        <div class="item-img">
+                                            <a href="#"><img src="img/product/latest4.jpg" alt="Post"></a>
+                                        </div>
+                                        <div class="item-content">
+                                            <div class="item-post-date"><a href="#"><i class="fas fa-clock"></i>15 Dec, 2018</a></div>
+                                            <h4 class="item-title"><a href="#">Salami Oven Roasted are
+                                                    Mozzarella Oelette</a></h4>
+                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
+                                                    John Martin</a></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                         <div class="widget">
                             <div class="section-heading heading-dark">
                                 <h3 class="item-heading">SUBSCRIBE &amp; FOLLOW</h3>
@@ -488,76 +658,174 @@
                             </div>
                         </div>
                         <div class="widget">
-                            <div class="section-heading heading-dark">
-                                <h3 class="item-heading">LATEST RECIPES</h3>
+                            <div class="widget-ad">
+                                <a href="#"><img src="img/figure/figure6.jpg" alt="Ad" class="img-fluid"></a>
                             </div>
-                            <div class="widget-latest">
-                                <ul class="block-list">
-                                    <li class="single-item">
-                                        <div class="item-img">
-                                            <a href="#"><img src="img/product/latest1.jpg" alt="Post"></a>
-                                            <div class="count-number">1</div>
-                                        </div>
-                                        <div class="item-content">
-                                            <div class="item-ctg">DESERT</div>
-                                            <h4 class="item-title"><a href="#">Salami Oven Roasted are
-                                                    Mozzarella Oelette</a></h4>
-                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
-                                                    John Martin</a></div>
+                        </div>
+                        <div class="widget">
+                            <div class="section-heading heading-dark">
+                                <h3 class="item-heading">CATEGORIES</h3>
+                            </div>
+                            <div class="widget-categories">
+                                <ul>
+                                    <li>
+                                        <a href="#">BreakFast
+                                            <span>25</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Lunch
+                                            <span>15</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pasta
+                                            <span>22</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dinner
+                                            <span>18</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dessert
+                                            <span>36</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Drinks
+                                            <span>12</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Fruits
+                                            <span>05</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <div class="widget-newsletter-subscribe">
+                                <h3>GET LATEST UPDATES</h3>
+                                <p>Newsletter Subscribe</p>
+                                <form class="newsletter-subscribe-form">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="your e-mail address" class="form-control" name="email"
+                                            data-error="E-mail field is required" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group mb-none">
+                                        <button type="submit" class="item-btn">SUBSCRIBE</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <div class="section-heading heading-dark">
+                                <h3 class="item-heading">INSTAGRAM</h3>
+                            </div>
+                            <div class="widget-instagram">
+                                <ul>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure9.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
                                         </div>
                                     </li>
-                                    <li class="single-item">
-                                        <div class="item-img">
-                                            <a href="#"><img src="img/product/latest2.jpg" alt="Post"></a>
-                                            <div class="count-number">2</div>
-                                        </div>
-                                        <div class="item-content">
-                                            <div class="item-ctg">DESERT</div>
-                                            <h4 class="item-title"><a href="#">Salami Oven Roasted are
-                                                    Mozzarella Oelette</a></h4>
-                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
-                                                    John Martin</a></div>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure10.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
                                         </div>
                                     </li>
-                                    <li class="single-item">
-                                        <div class="item-img">
-                                            <a href="#"><img src="img/product/latest3.jpg" alt="Post"></a>
-                                            <div class="count-number">3</div>
-                                        </div>
-                                        <div class="item-content">
-                                            <div class="item-ctg">DESERT</div>
-                                            <h4 class="item-title"><a href="#">Salami Oven Roasted are
-                                                    Mozzarella Oelette</a></h4>
-                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
-                                                    John Martin</a></div>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure11.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
                                         </div>
                                     </li>
-                                    <li class="single-item">
-                                        <div class="item-img">
-                                            <a href="#"><img src="img/product/latest4.jpg" alt="Post"></a>
-                                            <div class="count-number">4</div>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure12.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <div class="item-content">
-                                            <div class="item-ctg">DESERT</div>
-                                            <h4 class="item-title"><a href="#">Salami Oven Roasted are
-                                                    Mozzarella Oelette</a></h4>
-                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
-                                                    John Martin</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure13.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure14.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure15.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure16.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure17.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="widget">
-                            <div class="widget-ad">
-                                <a href="#"><img src="img/figure/figure4.jpg" alt="Ad" class="img-fluid"></a>
+                            <div class="section-heading heading-dark">
+                                <h3 class="item-heading">POPULAR TAGS</h3>
+                            </div>
+                            <div class="widget-tag">
+                                <ul>
+                                    <li>
+                                        <a href="#">DESERT</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">CAKE</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">BREAKFAST</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">BURGER</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">DINNER</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">PIZZA</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">SEA FOOD</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">SALAD</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">JUICE</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Recipe With Sidebar Area End Here -->
+        <!-- Blog Grid Area End Here -->
         <!-- Footer Area Start Here -->
         <footer class="ranna-bg-dark">
             <div class="container">

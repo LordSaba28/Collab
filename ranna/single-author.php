@@ -1,33 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ranna | Shop</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.png">
-    <!-- Normalize Css -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- Main Css -->
-    <link rel="stylesheet" href="css/main.css">
-    <!-- Bootstrap Css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate.min.css">
-    <!-- Fontawesome CSS -->
-    <link rel="stylesheet" href="css/fontawesome-all.min.css">
-    <!-- Flaticon CSS -->
-    <link rel="stylesheet" href="fonts/flaticon.css">
-    <!-- Select 2 CSS -->
-    <link rel="stylesheet" href="css/select2.min.css">
-    <!-- Custom Css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Modernizr Js -->
-    <script src="js/modernizr-3.6.0.min.js"></script>
-</head>
+<?php include "head.php"?>
 
 <body>
     <!--[if lte IE 9]>
@@ -415,12 +389,12 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumbs-area">
-                            <h1>Our Shop Page</h1>
+                            <h1>Single Author Archives</h1>
                             <ul>
                                 <li>
                                     <a href="index.html">Home</a>
                                 </li>
-                                <li>Shop Page</li>
+                                <li>Author Archives</li>
                             </ul>
                         </div>
                     </div>
@@ -428,384 +402,207 @@
             </div>
         </section>
         <!-- Inne Page Banner Area End Here -->
-        <!-- Shop Page Area Start Here -->
-        <section class="shop-page-wrap padding-top-74 padding-bottom-50">
+        <!-- Single Author Area Start Here -->
+        <section class="single-author-page-wrap padding-top-80 padding-bottom-50">
             <div class="container">
                 <div class="row gutters-60">
                     <div class="col-lg-8">
-                        <div class="d-sm-flex justify-content-between align-items-center">
-                            <div class="section-heading heading-dark">
-                                <h2 class="item-heading">SHOWING 16-24 OF 50 RESULTS</h2>
-                            </div>
-                            <div class="filter-box">
-                                <select class="select2" name="filter-by">
-                                    <option value="0">Breakfast</option>
-                                    <option value="1">Newest</option>
-                                    <option value="2">Top Sell</option>
-                                    <option value="3">Top Rated</option>
-                                    <option value="4">Price High</option>
-                                    <option value="5">Low Price</option>
-                                </select>
+                        <div class="author-info">
+                            <div class="media media-none--xs">
+                                <img src="img/blog/author.jpg" alt="Blog Author" class="rounded-circle media-img-auto">
+                                <div class="media-body">
+                                    <h2 class="author-title">Jessia Jessy</h2>
+                                    <div class="author-designation">Dessert Specialist</div>
+                                    <p>I love cooking and blogging Using  break salmonota aewtoes areeggs 
+                                            crosswise. of something of did require met of help have someone
+                                            ppercorns into a small pot and bring to the boilre.</p>
+                                    <ul class="author-social">
+                                        <li>
+                                            <a href="#" class="facebook">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="twitter">
+                                                    <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="linkedin">
+                                                    <i class="fab fa-linkedin-in"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="google">
+                                                    <i class="fab fa-google-plus-g"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="pinterest">
+                                                    <i class="fab fa-pinterest"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
+                        <div class="section-heading heading-dark">
+                            <h2 class="item-heading">36 RECIPES</h2>
+                        </div>
                         <div class="row">
-                            <div class="col-md-4 col-sm-6 col-12">
-                                <div class="shop-box-layout1">
-                                    <div class="mask-item bg--accent">
-                                        <div class="item-figure">
-                                            <img src="img/product/shop-figure1.png" alt="Product">
-                                        </div>
-                                        <ul class="action-items">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-shopping-cart"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-exchange-alt"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                            <div class="col-md-6 col-sm-6 col-12">
+                                <div class="product-box-layout1">
+                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product50.jpg"
+                                                alt="Product"></a></figure>
                                     <div class="item-content">
-                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
-                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                        <span class="sub-title">CHICKEN</span>
+                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
+                                                and Chanterelles</a></h3>
+                                        <ul class="item-rating">
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-empty"><i class="fas fa-star"></i></li>
+                                            <li><span>9<span> / 10</span></span> </li>
+                                        </ul>
+                                        <p>More off this less hello salamander lied porpoise much over tightly circa
+                                            outside crud mightily rigorouse. </p>
+                                        <ul class="entry-meta">
+                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
+                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 col-12">
-                                <div class="shop-box-layout1">
-                                    <div class="mask-item bg--accent">
-                                        <div class="item-figure">
-                                            <img src="img/product/shop-figure2.png" alt="Product">
-                                        </div>
-                                        <ul class="action-items">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-shopping-cart"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-exchange-alt"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                            <div class="col-md-6 col-sm-6 col-12">
+                                <div class="product-box-layout1">
+                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product51.jpg"
+                                                alt="Product"></a></figure>
                                     <div class="item-content">
-                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
-                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                        <span class="sub-title">CHICKEN</span>
+                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
+                                                and Chanterelles</a></h3>
+                                        <ul class="item-rating">
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-empty"><i class="fas fa-star"></i></li>
+                                            <li><span>9<span> / 10</span></span> </li>
+                                        </ul>
+                                        <p>More off this less hello salamander lied porpoise much over tightly circa
+                                            outside crud mightily rigorouse. </p>
+                                        <ul class="entry-meta">
+                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
+                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 col-12">
-                                <div class="shop-box-layout1">
-                                    <div class="mask-item bg--accent">
-                                        <div class="item-figure">
-                                            <img src="img/product/shop-figure3.png" alt="Product">
-                                        </div>
-                                        <ul class="action-items">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-shopping-cart"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-exchange-alt"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                            <div class="col-md-6 col-sm-6 col-12">
+                                <div class="product-box-layout1">
+                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product52.jpg"
+                                                alt="Product"></a></figure>
                                     <div class="item-content">
-                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
-                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                        <span class="sub-title">CHICKEN</span>
+                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
+                                                and Chanterelles</a></h3>
+                                        <ul class="item-rating">
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-empty"><i class="fas fa-star"></i></li>
+                                            <li><span>9<span> / 10</span></span> </li>
+                                        </ul>
+                                        <p>More off this less hello salamander lied porpoise much over tightly circa
+                                            outside crud mightily rigorouse. </p>
+                                        <ul class="entry-meta">
+                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
+                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 col-12">
-                                <div class="shop-box-layout1">
-                                    <div class="mask-item bg--accent">
-                                        <div class="item-figure">
-                                            <img src="img/product/shop-figure4.png" alt="Product">
-                                        </div>
-                                        <ul class="action-items">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-shopping-cart"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-exchange-alt"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                            <div class="col-md-6 col-sm-6 col-12">
+                                <div class="product-box-layout1">
+                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product53.jpg"
+                                                alt="Product"></a></figure>
                                     <div class="item-content">
-                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
-                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                        <span class="sub-title">CHICKEN</span>
+                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
+                                                and Chanterelles</a></h3>
+                                        <ul class="item-rating">
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-empty"><i class="fas fa-star"></i></li>
+                                            <li><span>9<span> / 10</span></span> </li>
+                                        </ul>
+                                        <p>More off this less hello salamander lied porpoise much over tightly circa
+                                            outside crud mightily rigorouse. </p>
+                                        <ul class="entry-meta">
+                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
+                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 col-12">
-                                <div class="shop-box-layout1">
-                                    <div class="mask-item bg--accent">
-                                        <div class="item-figure">
-                                            <img src="img/product/shop-figure5.png" alt="Product">
-                                        </div>
-                                        <ul class="action-items">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-shopping-cart"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-exchange-alt"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                            <div class="col-md-6 col-sm-6 col-12">
+                                <div class="product-box-layout1">
+                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product54.jpg"
+                                                alt="Product"></a></figure>
                                     <div class="item-content">
-                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
-                                        <div class="item-price"><span class="currency">$</span>28.00</div>
+                                        <span class="sub-title">CHICKEN</span>
+                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
+                                                and Chanterelles</a></h3>
+                                        <ul class="item-rating">
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-empty"><i class="fas fa-star"></i></li>
+                                            <li><span>9<span> / 10</span></span> </li>
+                                        </ul>
+                                        <p>More off this less hello salamander lied porpoise much over tightly circa
+                                            outside crud mightily rigorouse. </p>
+                                        <ul class="entry-meta">
+                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
+                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6 col-12">
-                                <div class="shop-box-layout1">
-                                    <div class="mask-item bg--accent">
-                                        <div class="item-figure">
-                                            <img src="img/product/shop-figure6.png" alt="Product">
-                                        </div>
-                                        <ul class="action-items">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-shopping-cart"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-exchange-alt"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                            <div class="col-md-6 col-sm-6 col-12">
+                                <div class="product-box-layout1">
+                                    <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product55.jpg"
+                                                alt="Product"></a></figure>
                                     <div class="item-content">
-                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
-                                        <div class="item-price"><span class="currency">$</span>28.00</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-12">
-                                <div class="shop-box-layout1">
-                                    <div class="mask-item bg--accent">
-                                        <div class="item-figure">
-                                            <img src="img/product/shop-figure7.png" alt="Product">
-                                        </div>
-                                        <ul class="action-items">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-shopping-cart"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-exchange-alt"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-heart"></i>
-                                                </a>
-                                            </li>
+                                        <span class="sub-title">CHICKEN</span>
+                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
+                                                and Chanterelles</a></h3>
+                                        <ul class="item-rating">
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-fill"><i class="fas fa-star"></i></li>
+                                            <li class="star-empty"><i class="fas fa-star"></i></li>
+                                            <li><span>9<span> / 10</span></span> </li>
                                         </ul>
-                                    </div>
-                                    <div class="item-content">
-                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
-                                        <div class="item-price"><span class="currency">$</span>28.00</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-12">
-                                <div class="shop-box-layout1">
-                                    <div class="mask-item bg--accent">
-                                        <div class="item-figure">
-                                            <img src="img/product/shop-figure8.png" alt="Product">
-                                        </div>
-                                        <ul class="action-items">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-shopping-cart"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-exchange-alt"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-heart"></i>
-                                                </a>
-                                            </li>
+                                        <p>More off this less hello salamander lied porpoise much over tightly circa
+                                            outside crud mightily rigorouse. </p>
+                                        <ul class="entry-meta">
+                                            <li><a href="#"><i class="fas fa-clock"></i>15 Mins</a></li>
+                                            <li><a href="#"><i class="fas fa-user"></i>by <span>John Martin</span></a></li>
+                                            <li><a href="#"><i class="fas fa-heart"></i><span>02</span> Likes</a></li>
                                         </ul>
-                                    </div>
-                                    <div class="item-content">
-                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
-                                        <div class="item-price"><span class="currency">$</span>28.00</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-12">
-                                <div class="shop-box-layout1">
-                                    <div class="mask-item bg--accent">
-                                        <div class="item-figure">
-                                            <img src="img/product/shop-figure9.png" alt="Product">
-                                        </div>
-                                        <ul class="action-items">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-shopping-cart"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-exchange-alt"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="item-content">
-                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
-                                        <div class="item-price"><span class="currency">$</span>28.00</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-12">
-                                <div class="shop-box-layout1">
-                                    <div class="mask-item bg--accent">
-                                        <div class="item-figure">
-                                            <img src="img/product/shop-figure1.png" alt="Product">
-                                        </div>
-                                        <ul class="action-items">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-shopping-cart"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-exchange-alt"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="item-content">
-                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
-                                        <div class="item-price"><span class="currency">$</span>28.00</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-12">
-                                <div class="shop-box-layout1">
-                                    <div class="mask-item bg--accent">
-                                        <div class="item-figure">
-                                            <img src="img/product/shop-figure2.png" alt="Product">
-                                        </div>
-                                        <ul class="action-items">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-shopping-cart"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-exchange-alt"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="item-content">
-                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
-                                        <div class="item-price"><span class="currency">$</span>28.00</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-12">
-                                <div class="shop-box-layout1">
-                                    <div class="mask-item bg--accent">
-                                        <div class="item-figure">
-                                            <img src="img/product/shop-figure3.png" alt="Product">
-                                        </div>
-                                        <ul class="action-items">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-shopping-cart"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-exchange-alt"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="fas fa-heart"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="item-content">
-                                        <h3 class="item-title"><a href="single-shop.html">Kitchen Utensils</a></h3>
-                                        <div class="item-price"><span class="currency">$</span>28.00</div>
                                     </div>
                                 </div>
                             </div>
@@ -823,127 +620,209 @@
                             <li>
                                 <a href="#">4</a>
                             </li>
+                            <li>
+                                <a href="#">5</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-lg-4 sidebar-widget-area sidebar-break-md">
                         <div class="widget">
                             <div class="section-heading heading-dark">
-                                <h3 class="item-heading">CATEGORIES</h3>
+                                <h3 class="item-heading">FEATURED RECIPE</h3>
                             </div>
-                            <div class=" widget-search">
-                                <div class="input-group stylish-input-group">
-                                    <input type="text" class="form-control" placeholder="Search product . . .">
-                                    <span class="input-group-addon">
-                                        <button type="submit">
-                                            <span class="flaticon-magnifying-glass" aria-hidden="true"></span>
-                                        </button>
-                                    </span>
+                            <div class="widget-featured-feed">
+                                <div class="rc-carousel nav-control-layout1" data-loop="true" data-items="3"
+                                    data-margin="5" data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="700"
+                                    data-dots="false" data-nav="true" data-nav-speed="false" data-r-x-small="1"
+                                    data-r-x-small-nav="true" data-r-x-small-dots="false" data-r-x-medium="1"
+                                    data-r-x-medium-nav="true" data-r-x-medium-dots="false" data-r-small="1"
+                                    data-r-small-nav="true" data-r-small-dots="false" data-r-medium="1"
+                                    data-r-medium-nav="true" data-r-medium-dots="false" data-r-large="1"
+                                    data-r-large-nav="true" data-r-large-dots="false" data-r-extra-large="1"
+                                    data-r-extra-large-nav="true" data-r-extra-large-dots="false">
+                                    <div class="featured-box-layout1">
+                                        <div class="item-img">
+                                            <img src="img/product/product17.jpg" alt="Brand" class="img-fluid">
+                                        </div>
+                                        <div class="item-content">
+                                            <span class="ctg-name">BREAKFAST</span>
+                                            <h4 class="item-title"><a href="single-recipe1.html">Baked Garlic Prawn</a></h4>
+                                            <p>Definitiones noel ei verear intelle
+                                                gatpri civibus consequat area
+                                                refund efficiantue.</p>
+                                        </div>
+                                    </div>
+                                    <div class="featured-box-layout1">
+                                        <div class="item-img">
+                                            <img src="img/product/product18.jpg" alt="Brand" class="img-fluid">
+                                        </div>
+                                        <div class="item-content">
+                                            <span class="ctg-name">DINNER</span>
+                                            <h4 class="item-title"><a href="single-recipe1.html">Baked Garlic Prawn</a></h4>
+                                            <p>Definitiones noel ei verear intelle
+                                                gatpri civibus consequat area
+                                                refund efficiantue.</p>
+                                        </div>
+                                    </div>
+                                    <div class="featured-box-layout1">
+                                        <div class="item-img">
+                                            <img src="img/product/product19.jpg" alt="Brand" class="img-fluid">
+                                        </div>
+                                        <div class="item-content">
+                                            <span class="ctg-name">SALAD</span>
+                                            <h4 class="item-title"><a href="single-recipe1.html">Baked Garlic Prawn</a></h4>
+                                            <p>Definitiones noel ei verear intelle
+                                                gatpri civibus consequat area
+                                                refund efficiantue.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="widget">
                             <div class="section-heading heading-dark">
-                                <h3 class="item-heading">CATEGORIES</h3>
+                                <h3 class="item-heading">SUBSCRIBE &amp; FOLLOW</h3>
                             </div>
-                            <div class="widget-categories">
+                            <div class="widget-follow-us">
                                 <ul>
-                                    <li>
-                                        <a href="#">BreakFast
-                                            <span>25</span>
-                                        </a>
+                                    <li class="single-item"><a href="#"><i class="fab fa-facebook-f"></i>LIKE ME ON</a></li>
+                                    <li class="single-item"><a href="#"><i class="fab fa-twitter"></i>LIKE ME</a></li>
+                                    <li class="single-item"><a href="#"><i class="fab fa-linkedin-in"></i>LIKE ME</a></li>
+                                    <li class="single-item"><a href="#"><i class="fab fa-pinterest-p"></i>LIKE ME</a></li>
+                                    <li class="single-item"><a href="#"><i class="fab fa-instagram"></i>LIKE ME</a></li>
+                                    <li class="single-item"><a href="#"><i class="fab fa-youtube"></i>Subscribe</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <div class="section-heading heading-dark">
+                                <h3 class="item-heading">LATEST RECIPES</h3>
+                            </div>
+                            <div class="widget-latest">
+                                <ul class="block-list">
+                                    <li class="single-item">
+                                        <div class="item-img">
+                                            <a href="#"><img src="img/product/latest1.jpg" alt="Post"></a>
+                                            <div class="count-number">1</div>
+                                        </div>
+                                        <div class="item-content">
+                                            <div class="item-ctg">DESERT</div>
+                                            <h4 class="item-title"><a href="#">Salami Oven Roasted are
+                                                    Mozzarella Oelette</a></h4>
+                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
+                                                    John Martin</a></div>
+                                        </div>
                                     </li>
-                                    <li>
-                                        <a href="#">Lunch
-                                            <span>15</span>
-                                        </a>
+                                    <li class="single-item">
+                                        <div class="item-img">
+                                            <a href="#"><img src="img/product/latest2.jpg" alt="Post"></a>
+                                            <div class="count-number">2</div>
+                                        </div>
+                                        <div class="item-content">
+                                            <div class="item-ctg">DESERT</div>
+                                            <h4 class="item-title"><a href="#">Salami Oven Roasted are
+                                                    Mozzarella Oelette</a></h4>
+                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
+                                                    John Martin</a></div>
+                                        </div>
                                     </li>
-                                    <li>
-                                        <a href="#">Pasta
-                                            <span>22</span>
-                                        </a>
+                                    <li class="single-item">
+                                        <div class="item-img">
+                                            <a href="#"><img src="img/product/latest3.jpg" alt="Post"></a>
+                                            <div class="count-number">3</div>
+                                        </div>
+                                        <div class="item-content">
+                                            <div class="item-ctg">DESERT</div>
+                                            <h4 class="item-title"><a href="#">Salami Oven Roasted are
+                                                    Mozzarella Oelette</a></h4>
+                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
+                                                    John Martin</a></div>
+                                        </div>
                                     </li>
-                                    <li>
-                                        <a href="#">Dinner
-                                            <span>18</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Dessert
-                                            <span>36</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Drinks
-                                            <span>12</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Fruits
-                                            <span>05</span>
-                                        </a>
+                                    <li class="single-item">
+                                        <div class="item-img">
+                                            <a href="#"><img src="img/product/latest4.jpg" alt="Post"></a>
+                                            <div class="count-number">4</div>
+                                        </div>
+                                        <div class="item-content">
+                                            <div class="item-ctg">DESERT</div>
+                                            <h4 class="item-title"><a href="#">Salami Oven Roasted are
+                                                    Mozzarella Oelette</a></h4>
+                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
+                                                    John Martin</a></div>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="widget">
                             <div class="section-heading heading-dark">
-                                <h3 class="item-heading">TOP PRODUCTS</h3>
+                                <h3 class="item-heading">INSTAGRAM</h3>
                             </div>
-                            <div class="widget-top-product">
-                                <ul class="block-list">
-                                    <li class="single-item">
-                                        <div class="item-img">
-                                            <a href="single-shop.html" class="item-icon"><i class="flaticon-plus-1"></i></a>
-                                            <img src="img/product/top-product1.jpg" alt="Post">
-                                        </div>
-                                        <div class="item-content">
-                                            <h4 class="item-title"><a href="#">Kitchen Product</a></h4>
-                                            <div class="item-price"><span class="item-currency">$</span>15.00</div>
+                            <div class="widget-instagram">
+                                <ul>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure9.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
                                         </div>
                                     </li>
-                                    <li class="single-item">
-                                        <div class="item-img">
-                                            <a href="single-shop.html" class="item-icon"><i class="flaticon-plus-1"></i></a>
-                                            <img src="img/product/top-product2.jpg" alt="Post">
-                                        </div>
-                                        <div class="item-content">
-                                            <h4 class="item-title"><a href="#">Kitchen Product</a></h4>
-                                            <div class="item-price"><span class="item-currency">$</span>25.00</div>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure10.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
                                         </div>
                                     </li>
-                                    <li class="single-item">
-                                        <div class="item-img">
-                                            <a href="single-shop.html" class="item-icon"><i class="flaticon-plus-1"></i></a>
-                                            <img src="img/product/top-product3.jpg" alt="Post">
-                                        </div>
-                                        <div class="item-content">
-                                            <h4 class="item-title"><a href="#">Kitchen Product</a></h4>
-                                            <div class="item-price"><span class="item-currency">$</span>29.00</div>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure11.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
                                         </div>
                                     </li>
-                                    <li class="single-item">
-                                        <div class="item-img">
-                                            <a href="single-shop.html" class="item-icon"><i class="flaticon-plus-1"></i></a>
-                                            <img src="img/product/top-product4.jpg" alt="Post">
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure12.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
                                         </div>
-                                        <div class="item-content">
-                                            <h4 class="item-title"><a href="#">Kitchen Product</a></h4>
-                                            <div class="item-price"><span class="item-currency">$</span>10.00</div>
+                                    </li>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure13.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure14.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure15.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure16.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-box">
+                                            <img src="img/social-figure/social-figure17.jpg" alt="Social Figure" class="img-fluid">
+                                            <a href="#" class="item-icon"><i class="fab fa-instagram"></i></a>
                                         </div>
                                     </li>
                                 </ul>
-                            </div>
-                        </div>
-                        <div class="widget">
-                            <div class="widget-ad">
-                                <a href="#"><img src="img/figure/figure5.jpg" alt="Ad" class="img-fluid"></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Shop Page Area End Here -->
+        <!-- Single Author Area End Here -->
         <!-- Footer Area Start Here -->
         <footer class="ranna-bg-dark">
             <div class="container">
@@ -1020,8 +899,8 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Plugins Js -->
     <script src="js/plugins.js"></script>
-    <!-- Select 2 Js -->
-    <script src="js/select2.full.min.js"></script>
+    <!-- Owl Carousel Js -->
+    <script src="js/owl.carousel.min.js"></script>
     <!-- Smoothscroll Js -->
     <script src="js/smoothscroll.min.js"></script>
     <!-- Custom Js -->
