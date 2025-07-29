@@ -10,21 +10,21 @@
             var $this = $(this),
                 $target = contactForm.find('.form-response');
             if (e.isDefaultPrevented()) {
-                $target.html("<div class='alert alert-success'><p>Please select all required field.</p></div>");
+                $target.php("<div class='alert alert-success'><p>Please select all required field.</p></div>");
             } else {
                 $.ajax({
                     url: "vendor/php/contact-form-process.php",
                     type: "POST",
                     data: contactForm.serialize(),
                     beforeSend: function () {
-                        $target.html("<div class='alert alert-info'><p>Loading ...</p></div>");
+                        $target.php("<div class='alert alert-info'><p>Loading ...</p></div>");
                     },
                     success: function (text) {
                         if (text === "success") {
                             $this[0].reset();
-                            $target.html("<div class='alert alert-success'><p>Message has been sent successfully.</p></div>");
+                            $target.php("<div class='alert alert-success'><p>Message has been sent successfully.</p></div>");
                         } else {
-                            $target.html("<div class='alert alert-success'><p>" + text + "</p></div>");
+                            $target.php("<div class='alert alert-success'><p>" + text + "</p></div>");
                         }
                     }
                 });

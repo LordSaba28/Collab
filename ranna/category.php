@@ -25,34 +25,34 @@
                     <div class="row">
                         <div class="col-lg-8 col-md-3 col-sm-4 col-4 possition-static">
                             <div class="site-logo-mobile">
-                                <a href="index.html" class="sticky-logo-light"><img src="img/logo-light.png" alt="Site Logo"></a>
-                                <a href="index.html" class="sticky-logo-dark"><img src="img/logo-dark.png" alt="Site Logo"></a>
+                                <a href="index.php" class="sticky-logo-light"><img src="img/logo-light.png" alt="Site Logo"></a>
+                                <a href="index.php" class="sticky-logo-dark"><img src="img/logo-dark.png" alt="Site Logo"></a>
                             </div>
                             <nav class="site-nav">
                                 <ul id="site-menu" class="site-menu">
                                     <li><a href="#">Home</a>
                                         <ul class="dropdown-menu-col-1">
-                                            <li><a href="index.html">Home 1</a></li>
-                                            <li><a href="index2.html">Home 2</a></li>
+                                            <li><a href="index.php">Home 1</a></li>
+                                            <li><a href="index2.php">Home 2</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="category.html">Category</a>
+                                        <a href="category.php">Category</a>
                                     </li>
                                     <li>
                                         <a href="#">Recipes</a>
                                         <ul class="dropdown-menu-col-1">
                                             <li>
-                                                <a href="recipe-with-sidebar.html">Recipes With Sidebar</a>
+                                                <a href="recipe-with-sidebar.php">Recipes With Sidebar</a>
                                             </li>
                                             <li>
-                                                <a href="recipe-without-sidebar.html">Recipes Without Sidebar</a>
+                                                <a href="recipe-without-sidebar.php">Recipes Without Sidebar</a>
                                             </li>
                                             <li>
-                                                <a href="single-recipe1.html">Single Recipe 1</a>
+                                                <a href="single-recipe1.php">Single Recipe 1</a>
                                             </li>
                                             <li>
-                                                <a href="single-recipe2.html">Single Recipe 2</a>
+                                                <a href="single-recipe2.php">Single Recipe 2</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -65,22 +65,22 @@
                                                         <div class="menu-ctg-title">Home</div>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="index.html">
+                                                                <a href="index.php">
                                                                     <i class="fas fa-home"></i>Home 1</a>
                                                             </li>
                                                             <li>
-                                                                <a href="index2.html">
+                                                                <a href="index2.php">
                                                                     <i class="fas fa-home"></i>Home 2</a>
                                                             </li>
                                                         </ul>
                                                         <div class="menu-ctg-title">Recipes</div>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="recipe-with-sidebar.html"><i class="fas fa-utensils"></i>Recipes
+                                                                <a href="recipe-with-sidebar.php"><i class="fas fa-utensils"></i>Recipes
                                                                     With Sidebar</a>
                                                             </li>
                                                             <li>
-                                                                <a href="recipe-without-sidebar.html"><i class="fas fa-utensils"></i>Recipes
+                                                                <a href="recipe-without-sidebar.php"><i class="fas fa-utensils"></i>Recipes
                                                                     Without
                                                                     Sidebar</a>
                                                             </li>
@@ -89,24 +89,24 @@
                                                     <div class="col-4">
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="single-recipe1.html"><i class="fas fa-utensils"></i>Single
+                                                                <a href="single-recipe1.php"><i class="fas fa-utensils"></i>Single
                                                                     Recipe 1</a>
                                                             </li>
                                                             <li>
-                                                                <a href="single-recipe2.html"><i class="fas fa-utensils"></i>Single
+                                                                <a href="single-recipe2.php"><i class="fas fa-utensils"></i>Single
                                                                     Recipe 2</a>
                                                             </li>
                                                         </ul>
                                                         <div class="menu-ctg-title">Other Pages</div>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="about.html"><i class="fab fa-cloudversify"></i>About</a>
+                                                                <a href="about.php"><i class="fab fa-cloudversify"></i>About</a>
                                                             </li>
                                                             <li>
-                                                                <a href="author.html"><i class="fas fa-user"></i>Author</a>
+                                                                <a href="author.php"><i class="fas fa-user"></i>Author</a>
                                                             </li>
                                                             <li>
-                                                                <a href="single-author.html"><i class="fas fa-user"></i>Author
+                                                                <a href="single-author.php"><i class="fas fa-user"></i>Author
                                                                     Details</a>
                                                             </li>
                                                         </ul>
@@ -114,24 +114,24 @@
                                                     <div class="col-4">
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="submit-recipe.html"><i class="far fa-share-square"></i>Submit
+                                                                <a href="submit-recipe.php"><i class="far fa-share-square"></i>Submit
                                                                     Recipe</a>
                                                             </li>
                                                             <li>
-                                                                <a href="login.html"><i class="fas fa-lock"></i>Login</a>
+                                                                <a href="login.php"><i class="fas fa-lock"></i>Login</a>
                                                             </li>
                                                             <li>
-                                                                <a href="404.html"><i class="fas fa-exclamation-triangle"></i>404
+                                                                <a href="404.php"><i class="fas fa-exclamation-triangle"></i>404
                                                                     Error</a>
                                                             </li>
                                                         </ul>
                                                         <div class="menu-ctg-title">Shop</div>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="shop.html"><i class="fas fa-shopping-cart"></i>Shop</a>
+                                                                <a href="shop.php"><i class="fas fa-shopping-cart"></i>Shop</a>
                                                             </li>
                                                             <li>
-                                                                <a href="single-shop.html"><i class="fas fa-shopping-cart"></i>Shop
+                                                                <a href="single-shop.php"><i class="fas fa-shopping-cart"></i>Shop
                                                                     Details</a>
                                                             </li>
                                                         </ul>
@@ -144,39 +144,39 @@
                                         <a href="#">Pages</a>
                                         <ul class="dropdown-menu-col-1">
                                             <li>
-                                                <a href="about.html">About</a>
+                                                <a href="about.php">About</a>
                                             </li>
                                             <li>
-                                                <a href="author.html">Author</a>
+                                                <a href="author.php">Author</a>
                                             </li>
                                             <li>
-                                                <a href="single-author.html">Author Details</a>
+                                                <a href="single-author.php">Author Details</a>
                                             </li>
                                             <li>
-                                                <a href="submit-recipe.html">Submit Recipe</a>
+                                                <a href="submit-recipe.php">Submit Recipe</a>
                                             </li>
                                             <li>
-                                                <a href="login.html">Login</a>
+                                                <a href="login.php">Login</a>
                                             </li>
                                             <li>
-                                                <a href="login.html">404 Error</a>
+                                                <a href="login.php">404 Error</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Blog</a>
                                         <ul class="dropdown-menu-col-1">
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                                            <li><a href="blog-list.html">Blog List</a></li>
-                                            <li><a href="single-blog.html">Blog Details</a></li>
+                                            <li><a href="blog-grid.php">Blog Grid</a></li>
+                                            <li><a href="blog-list.php">Blog List</a></li>
+                                            <li><a href="single-blog.php">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Shop</a>
                                         <ul class="dropdown-menu-col-1">
-                                            <li><a href="shop.html">Shop</a></li>
-                                            <li><a href="single-shop.html">Shop Details</a></li>
+                                            <li><a href="shop.php">Shop</a></li>
+                                            <li><a href="single-shop.php">Shop Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -259,7 +259,7 @@
                                         </button>
                                     </li>
                                     <li>
-                                        <a href="submit-recipe.html" class="fill-btn"><i class="flaticon-plus-1"></i>SUBMIT
+                                        <a href="submit-recipe.php" class="fill-btn"><i class="flaticon-plus-1"></i>SUBMIT
                                             RECIPE</a>
                                     </li>
                                 </ul>
@@ -292,7 +292,7 @@
                         </div>
                         <div class="col-lg-4 d-none d-lg-block">
                             <div class="site-logo-desktop">
-                                <a href="index.html" class="main-logo"><img src="img/logo-dark.png" alt="Site Logo"></a>
+                                <a href="index.php" class="main-logo"><img src="img/logo-dark.png" alt="Site Logo"></a>
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -392,7 +392,7 @@
                             <h1>Recipe Categories</h1>
                             <ul>
                                 <li>
-                                    <a href="index.html">Home</a>
+                                    <a href="index.php">Home</a>
                                 </li>
                                 <li>Categories</li>
                             </ul>
@@ -408,120 +408,120 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product29.jpg"
+                            <figure class="item-figure"><a href="single-recipe1.php"><img src="img/product/product29.jpg"
                                         alt="Product"></a></figure>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Chicken</a></h3>
+                                <h3 class="item-title"><a href="single-recipe1.php">Chicken</a></h3>
                                 <span class="sub-title"> 14 Recipes</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product30.jpg"
+                            <figure class="item-figure"><a href="single-recipe1.php"><img src="img/product/product30.jpg"
                                         alt="Product"></a></figure>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Juice</a></h3>
+                                <h3 class="item-title"><a href="single-recipe1.php">Juice</a></h3>
                                 <span class="sub-title"> 14 Recipes</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product31.jpg"
+                            <figure class="item-figure"><a href="single-recipe1.php"><img src="img/product/product31.jpg"
                                         alt="Product"></a></figure>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">BBQ</a></h3>
+                                <h3 class="item-title"><a href="single-recipe1.php">BBQ</a></h3>
                                 <span class="sub-title"> 14 Recipes</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product32.jpg"
+                            <figure class="item-figure"><a href="single-recipe1.php"><img src="img/product/product32.jpg"
                                         alt="Product"></a></figure>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Dessert</a></h3>
+                                <h3 class="item-title"><a href="single-recipe1.php">Dessert</a></h3>
                                 <span class="sub-title"> 14 Recipes</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product33.jpg"
+                            <figure class="item-figure"><a href="single-recipe1.php"><img src="img/product/product33.jpg"
                                         alt="Product"></a></figure>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Sushi</a></h3>
+                                <h3 class="item-title"><a href="single-recipe1.php">Sushi</a></h3>
                                 <span class="sub-title"> 14 Recipes</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product34.jpg"
+                            <figure class="item-figure"><a href="single-recipe1.php"><img src="img/product/product34.jpg"
                                         alt="Product"></a></figure>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Coffee</a></h3>
+                                <h3 class="item-title"><a href="single-recipe1.php">Coffee</a></h3>
                                 <span class="sub-title"> 14 Recipes</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product35.jpg"
+                            <figure class="item-figure"><a href="single-recipe1.php"><img src="img/product/product35.jpg"
                                         alt="Product"></a></figure>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Pizza</a></h3>
+                                <h3 class="item-title"><a href="single-recipe1.php">Pizza</a></h3>
                                 <span class="sub-title"> 14 Recipes</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product36.jpg"
+                            <figure class="item-figure"><a href="single-recipe1.php"><img src="img/product/product36.jpg"
                                         alt="Product"></a></figure>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Vegan</a></h3>
+                                <h3 class="item-title"><a href="single-recipe1.php">Vegan</a></h3>
                                 <span class="sub-title"> 14 Recipes</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product37.jpg"
+                            <figure class="item-figure"><a href="single-recipe1.php"><img src="img/product/product37.jpg"
                                         alt="Product"></a></figure>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Salad</a></h3>
+                                <h3 class="item-title"><a href="single-recipe1.php">Salad</a></h3>
                                 <span class="sub-title"> 14 Recipes</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product33.jpg"
+                            <figure class="item-figure"><a href="single-recipe1.php"><img src="img/product/product33.jpg"
                                         alt="Product"></a></figure>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Sushi</a></h3>
+                                <h3 class="item-title"><a href="single-recipe1.php">Sushi</a></h3>
                                 <span class="sub-title"> 14 Recipes</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product34.jpg"
+                            <figure class="item-figure"><a href="single-recipe1.php"><img src="img/product/product34.jpg"
                                         alt="Product"></a></figure>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Coffee</a></h3>
+                                <h3 class="item-title"><a href="single-recipe1.php">Coffee</a></h3>
                                 <span class="sub-title"> 14 Recipes</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="category-box-layout1">
-                            <figure class="item-figure"><a href="single-recipe1.html"><img src="img/product/product35.jpg"
+                            <figure class="item-figure"><a href="single-recipe1.php"><img src="img/product/product35.jpg"
                                         alt="Product"></a></figure>
                             <div class="item-content">
-                                <h3 class="item-title"><a href="single-recipe1.html">Pizza</a></h3>
+                                <h3 class="item-title"><a href="single-recipe1.php">Pizza</a></h3>
                                 <span class="sub-title"> 14 Recipes</span>
                             </div>
                         </div>
@@ -531,24 +531,7 @@
         </section>
         <!-- Category Area End Here -->
         <!-- Footer Area Start Here -->
-        <footer class="ranna-bg-dark">
-            <div class="container">
-                <div class="footer-logo">
-                    <a href="index.html"><img src="img/logo-light.png" class="img-fluid" alt="footer-logo"></a>
-                </div>
-                <div class="footer-menu">
-                    <ul>
-                        <li><a href="#">FACEBOOK</a></li>
-                        <li><a href="#">TWITTER</a></li>
-                        <li><a href="#">INSTAGRAM</a></li>
-                        <li><a href="#">PINTEREST</a></li>
-                        <li><a href="#">GOOGLEPLUS</a></li>
-                        <li><a href="#">YOUTUBE</a></li>
-                    </ul>
-                </div>
-                <div class="copyright">© All Right Reserved 2019</div>
-            </div>
-        </footer>
+        <?php include "footer.php"?>
         <!-- Footer Area End Here -->
     </div>
     <!-- Search Box Start Here -->

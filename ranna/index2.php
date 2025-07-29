@@ -25,34 +25,34 @@
                     <div class="row">
                         <div class="col-lg-8 col-md-3 col-sm-4 col-4 possition-static">
                             <div class="site-logo-mobile">
-                                <a href="index.html" class="sticky-logo-light"><img src="img/logo-dark.png" alt="Site Logo"></a>
-                                <a href="index.html" class="sticky-logo-dark"><img src="img/logo-dark.png" alt="Site Logo"></a>
+                                <a href="index.php" class="sticky-logo-light"><img src="img/logo-dark.png" alt="Site Logo"></a>
+                                <a href="index.php" class="sticky-logo-dark"><img src="img/logo-dark.png" alt="Site Logo"></a>
                             </div>
                             <nav class="site-nav">
                                 <ul id="site-menu" class="site-menu">
                                     <li><a href="#">Home</a>
                                         <ul class="dropdown-menu-col-1">
-                                            <li><a href="index.html">Home 1</a></li>
-                                            <li><a href="index2.html">Home 2</a></li>
+                                            <li><a href="index.php">Home 1</a></li>
+                                            <li><a href="index2.php">Home 2</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="category.html">Category</a>
+                                        <a href="category.php">Category</a>
                                     </li>
                                     <li>
                                         <a href="#">Recipes</a>
                                         <ul class="dropdown-menu-col-1">
                                             <li>
-                                                <a href="recipe-with-sidebar.html">Recipes With Sidebar</a>
+                                                <a href="recipe-with-sidebar.php">Recipes With Sidebar</a>
                                             </li>
                                             <li>
-                                                <a href="recipe-without-sidebar.html">Recipes Without Sidebar</a>
+                                                <a href="recipe-without-sidebar.php">Recipes Without Sidebar</a>
                                             </li>
                                             <li>
-                                                <a href="single-recipe1.html">Single Recipe 1</a>
+                                                <a href="single-recipe1.php">Single Recipe 1</a>
                                             </li>
                                             <li>
-                                                <a href="single-recipe2.html">Single Recipe 2</a>
+                                                <a href="single-recipe2.php">Single Recipe 2</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -65,22 +65,22 @@
                                                         <div class="menu-ctg-title">Home</div>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="index.html">
+                                                                <a href="index.php">
                                                                     <i class="fas fa-home"></i>Home 1</a>
                                                             </li>
                                                             <li>
-                                                                <a href="index2.html">
+                                                                <a href="index2.php">
                                                                     <i class="fas fa-home"></i>Home 2</a>
                                                             </li>
                                                         </ul>
                                                         <div class="menu-ctg-title">Recipes</div>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="recipe-with-sidebar.html"><i class="fas fa-utensils"></i>Recipes
+                                                                <a href="recipe-with-sidebar.php"><i class="fas fa-utensils"></i>Recipes
                                                                     With Sidebar</a>
                                                             </li>
                                                             <li>
-                                                                <a href="recipe-without-sidebar.html"><i class="fas fa-utensils"></i>Recipes
+                                                                <a href="recipe-without-sidebar.php"><i class="fas fa-utensils"></i>Recipes
                                                                     Without
                                                                     Sidebar</a>
                                                             </li>
@@ -89,24 +89,24 @@
                                                     <div class="col-4">
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="single-recipe1.html"><i class="fas fa-utensils"></i>Single
+                                                                <a href="single-recipe1.php"><i class="fas fa-utensils"></i>Single
                                                                     Recipe 1</a>
                                                             </li>
                                                             <li>
-                                                                <a href="single-recipe2.html"><i class="fas fa-utensils"></i>Single
+                                                                <a href="single-recipe2.php"><i class="fas fa-utensils"></i>Single
                                                                     Recipe 2</a>
                                                             </li>
                                                         </ul>
                                                         <div class="menu-ctg-title">Other Pages</div>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="about.html"><i class="fab fa-cloudversify"></i>About</a>
+                                                                <a href="about.php"><i class="fab fa-cloudversify"></i>About</a>
                                                             </li>
                                                             <li>
-                                                                <a href="author.html"><i class="fas fa-user"></i>Author</a>
+                                                                <a href="author.php"><i class="fas fa-user"></i>Author</a>
                                                             </li>
                                                             <li>
-                                                                <a href="single-author.html"><i class="fas fa-user"></i>Author
+                                                                <a href="single-author.php"><i class="fas fa-user"></i>Author
                                                                     Details</a>
                                                             </li>
                                                         </ul>
@@ -114,24 +114,24 @@
                                                     <div class="col-4">
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="submit-recipe.html"><i class="far fa-share-square"></i>Submit
+                                                                <a href="submit-recipe.php"><i class="far fa-share-square"></i>Submit
                                                                     Recipe</a>
                                                             </li>
                                                             <li>
-                                                                <a href="login.html"><i class="fas fa-lock"></i>Login</a>
+                                                                <a href="login.php"><i class="fas fa-lock"></i>Login</a>
                                                             </li>
                                                             <li>
-                                                                <a href="404.html"><i class="fas fa-exclamation-triangle"></i>404
+                                                                <a href="404.php"><i class="fas fa-exclamation-triangle"></i>404
                                                                     Error</a>
                                                             </li>
                                                         </ul>
                                                         <div class="menu-ctg-title">Shop</div>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="shop.html"><i class="fas fa-shopping-cart"></i>Shop</a>
+                                                                <a href="shop.php"><i class="fas fa-shopping-cart"></i>Shop</a>
                                                             </li>
                                                             <li>
-                                                                <a href="single-shop.html"><i class="fas fa-shopping-cart"></i>Shop
+                                                                <a href="single-shop.php"><i class="fas fa-shopping-cart"></i>Shop
                                                                     Details</a>
                                                             </li>
                                                         </ul>
@@ -144,39 +144,39 @@
                                         <a href="#">Pages</a>
                                         <ul class="dropdown-menu-col-1">
                                             <li>
-                                                <a href="about.html">About</a>
+                                                <a href="about.php">About</a>
                                             </li>
                                             <li>
-                                                <a href="author.html">Author</a>
+                                                <a href="author.php">Author</a>
                                             </li>
                                             <li>
-                                                <a href="single-author.html">Author Details</a>
+                                                <a href="single-author.php">Author Details</a>
                                             </li>
                                             <li>
-                                                <a href="submit-recipe.html">Submit Recipe</a>
+                                                <a href="submit-recipe.php">Submit Recipe</a>
                                             </li>
                                             <li>
-                                                <a href="login.html">Login</a>
+                                                <a href="login.php">Login</a>
                                             </li>
                                             <li>
-                                                <a href="login.html">404 Error</a>
+                                                <a href="login.php">404 Error</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Blog</a>
                                         <ul class="dropdown-menu-col-1">
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                                            <li><a href="blog-list.html">Blog List</a></li>
-                                            <li><a href="single-blog.html">Blog Details</a></li>
+                                            <li><a href="blog-grid.php">Blog Grid</a></li>
+                                            <li><a href="blog-list.php">Blog List</a></li>
+                                            <li><a href="single-blog.php">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Shop</a>
                                         <ul class="dropdown-menu-col-1">
-                                            <li><a href="shop.html">Shop</a></li>
-                                            <li><a href="single-shop.html">Shop Details</a></li>
+                                            <li><a href="shop.php">Shop</a></li>
+                                            <li><a href="single-shop.php">Shop Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -259,7 +259,7 @@
                                         </button>
                                     </li>
                                     <li>
-                                        <a href="submit-recipe.html" class="fill-btn"><i class="flaticon-plus-1"></i>SUBMIT
+                                        <a href="submit-recipe.php" class="fill-btn"><i class="flaticon-plus-1"></i>SUBMIT
                                             RECIPE</a>
                                     </li>
                                 </ul>
@@ -292,7 +292,7 @@
                         </div>
                         <div class="col-lg-4 d-none d-lg-block">
                             <div class="site-logo-desktop">
-                                <a href="index.html" class="main-logo"><img src="img/logo-light.png" alt="Site Logo"></a>
+                                <a href="index.php" class="main-logo"><img src="img/logo-light.png" alt="Site Logo"></a>
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -395,11 +395,11 @@
                     data-r-large-dots="false" data-r-extra-large="1" data-r-extra-large-nav="true"
                     data-r-extra-large-dots="false">
                     <div class="ranna-slider-content-layout2">
-                        <figure class="item-figure"><a href="single-recipe1.html"><img src="img/slider/slide1-1.jpg"
+                        <figure class="item-figure"><a href="single-recipe1.php"><img src="img/slider/slide1-1.jpg"
                                     alt="Product"></a></figure>
                         <div class="item-content">
                             <span class="sub-title">SALAD</span>
-                            <h2 class="item-title"><a href="single-recipe1.html">Italiano Salad Mixed</a></h2>
+                            <h2 class="item-title"><a href="single-recipe1.php">Italiano Salad Mixed</a></h2>
                             <ul class="item-rating">
                                 <li class="star-fill"><i class="fas fa-star"></i></li>
                                 <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -418,11 +418,11 @@
                         </div>
                     </div>
                     <div class="ranna-slider-content-layout2">
-                        <figure class="item-figure"><a href="single-recipe1.html"><img src="img/slider/slide1-2.jpg"
+                        <figure class="item-figure"><a href="single-recipe1.php"><img src="img/slider/slide1-2.jpg"
                                     alt="Product"></a></figure>
                         <div class="item-content">
                             <span class="sub-title">SALAD</span>
-                            <h2 class="item-title"><a href="single-recipe1.html">Italiano Salad Mixed</a></h2>
+                            <h2 class="item-title"><a href="single-recipe1.php">Italiano Salad Mixed</a></h2>
                             <ul class="item-rating">
                                 <li class="star-fill"><i class="fas fa-star"></i></li>
                                 <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -441,11 +441,11 @@
                         </div>
                     </div>
                     <div class="ranna-slider-content-layout2">
-                        <figure class="item-figure"><a href="single-recipe1.html"><img src="img/slider/slide1-3.jpg"
+                        <figure class="item-figure"><a href="single-recipe1.php"><img src="img/slider/slide1-3.jpg"
                                     alt="Product"></a></figure>
                         <div class="item-content">
                             <span class="sub-title">SALAD</span>
-                            <h2 class="item-title"><a href="single-recipe1.html">Italiano Salad Mixed</a></h2>
+                            <h2 class="item-title"><a href="single-recipe1.php">Italiano Salad Mixed</a></h2>
                             <ul class="item-rating">
                                 <li class="star-fill"><i class="fas fa-star"></i></li>
                                 <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -475,7 +475,7 @@
                         <div class="product-box-layout4">
                             <div class="item-figure">
                                 <img src="img/product/product1.jpg" alt="Product">
-                                <a href="single-recipe1.html" class="item-dot">
+                                <a href="single-recipe1.php" class="item-dot">
                                     <span></span>
                                     <span></span>
                                     <span></span>
@@ -483,7 +483,7 @@
                             </div>
                             <div class="item-content">
                                 <span class="sub-title">BREAKFAST</span>
-                                <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie and
+                                <h3 class="item-title"><a href="single-recipe1.php">Tomatoes Stuffed with Foie and
                                         Chanterelles</a></h3>
                                 <ul class="item-rating">
                                     <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -505,7 +505,7 @@
                         <div class="product-box-layout4">
                             <div class="item-figure">
                                 <img src="img/product/product2.jpg" alt="Product">
-                                <a href="single-recipe1.html" class="item-dot">
+                                <a href="single-recipe1.php" class="item-dot">
                                     <span></span>
                                     <span></span>
                                     <span></span>
@@ -513,7 +513,7 @@
                             </div>
                             <div class="item-content">
                                 <span class="sub-title">DESERT</span>
-                                <h3 class="item-title"><a href="single-recipe1.html">Pumpkin Cheesecake With
+                                <h3 class="item-title"><a href="single-recipe1.php">Pumpkin Cheesecake With
                                         GingersnapCrust</a></h3>
                                 <ul class="item-rating">
                                     <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -535,7 +535,7 @@
                         <div class="product-box-layout4">
                             <div class="item-figure">
                                 <img src="img/product/product3.jpg" alt="Product">
-                                <a href="single-recipe1.html" class="item-dot">
+                                <a href="single-recipe1.php" class="item-dot">
                                     <span></span>
                                     <span></span>
                                     <span></span>
@@ -543,7 +543,7 @@
                             </div>
                             <div class="item-content">
                                 <span class="sub-title">JUICE</span>
-                                <h3 class="item-title"><a href="single-recipe1.html">Blueberry Juice with Lemon Crema</a></h3>
+                                <h3 class="item-title"><a href="single-recipe1.php">Blueberry Juice with Lemon Crema</a></h3>
                                 <ul class="item-rating">
                                     <li class="star-fill"><i class="fas fa-star"></i></li>
                                     <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -577,7 +577,7 @@
                                     </div>
                                     <div class="item-figure">
                                         <img src="img/product/product4.jpg" alt="Product">
-                                        <a href="single-recipe1.html" class="item-dot">
+                                        <a href="single-recipe1.php" class="item-dot">
                                             <span></span>
                                             <span></span>
                                             <span></span>
@@ -585,7 +585,7 @@
                                     </div>
                                     <div class="item-content">
                                         <span class="sub-title">PASTA</span>
-                                        <h2 class="item-title"><a href="single-recipe1.html">Chanterelle and Porcini
+                                        <h2 class="item-title"><a href="single-recipe1.php">Chanterelle and Porcini
                                                 Mushroom Recipes</a></h2>
                                         <ul class="item-rating">
                                             <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -610,7 +610,7 @@
                                 <div class="product-box-layout4">
                                     <div class="item-figure">
                                         <img src="img/product/product20.jpg" alt="Product">
-                                        <a href="single-recipe1.html" class="item-dot">
+                                        <a href="single-recipe1.php" class="item-dot">
                                             <span></span>
                                             <span></span>
                                             <span></span>
@@ -618,7 +618,7 @@
                                     </div>
                                     <div class="item-content">
                                         <span class="sub-title">CHICKEN</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
+                                        <h3 class="item-title"><a href="single-recipe1.php">Tomatoes Stuffed with Foie
                                                 and Chanterelles</a></h3>
                                         <ul class="item-rating">
                                             <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -640,7 +640,7 @@
                                 <div class="product-box-layout4">
                                     <div class="item-figure">
                                         <img src="img/product/product21.jpg" alt="Product">
-                                        <a href="single-recipe1.html" class="item-dot">
+                                        <a href="single-recipe1.php" class="item-dot">
                                             <span></span>
                                             <span></span>
                                             <span></span>
@@ -648,7 +648,7 @@
                                     </div>
                                     <div class="item-content">
                                         <span class="sub-title">SALAD</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
+                                        <h3 class="item-title"><a href="single-recipe1.php">Tomatoes Stuffed with Foie
                                                 and Chanterelles</a></h3>
                                         <ul class="item-rating">
                                             <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -670,7 +670,7 @@
                                 <div class="product-box-layout4">
                                     <div class="item-figure">
                                         <img src="img/product/product22.jpg" alt="Product">
-                                        <a href="single-recipe1.html" class="item-dot">
+                                        <a href="single-recipe1.php" class="item-dot">
                                             <span></span>
                                             <span></span>
                                             <span></span>
@@ -678,7 +678,7 @@
                                     </div>
                                     <div class="item-content">
                                         <span class="sub-title">DINNER</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
+                                        <h3 class="item-title"><a href="single-recipe1.php">Tomatoes Stuffed with Foie
                                                 and Chanterelles</a></h3>
                                         <ul class="item-rating">
                                             <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -700,7 +700,7 @@
                                 <div class="product-box-layout4">
                                     <div class="item-figure">
                                         <img src="img/product/product23.jpg" alt="Product">
-                                        <a href="single-recipe1.html" class="item-dot">
+                                        <a href="single-recipe1.php" class="item-dot">
                                             <span></span>
                                             <span></span>
                                             <span></span>
@@ -708,7 +708,7 @@
                                     </div>
                                     <div class="item-content">
                                         <span class="sub-title">JUICE</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
+                                        <h3 class="item-title"><a href="single-recipe1.php">Tomatoes Stuffed with Foie
                                                 and Chanterelles</a></h3>
                                         <ul class="item-rating">
                                             <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -730,7 +730,7 @@
                                 <div class="product-box-layout4">
                                     <div class="item-figure">
                                         <img src="img/product/product24.jpg" alt="Product">
-                                        <a href="single-recipe1.html" class="item-dot">
+                                        <a href="single-recipe1.php" class="item-dot">
                                             <span></span>
                                             <span></span>
                                             <span></span>
@@ -738,7 +738,7 @@
                                     </div>
                                     <div class="item-content">
                                         <span class="sub-title">BREAKFAST</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
+                                        <h3 class="item-title"><a href="single-recipe1.php">Tomatoes Stuffed with Foie
                                                 and Chanterelles</a></h3>
                                         <ul class="item-rating">
                                             <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -760,7 +760,7 @@
                                 <div class="product-box-layout4">
                                     <div class="item-figure">
                                         <img src="img/product/product25.jpg" alt="Product">
-                                        <a href="single-recipe1.html" class="item-dot">
+                                        <a href="single-recipe1.php" class="item-dot">
                                             <span></span>
                                             <span></span>
                                             <span></span>
@@ -768,7 +768,7 @@
                                     </div>
                                     <div class="item-content">
                                         <span class="sub-title">DINNER</span>
-                                        <h3 class="item-title"><a href="single-recipe1.html">Tomatoes Stuffed with Foie
+                                        <h3 class="item-title"><a href="single-recipe1.php">Tomatoes Stuffed with Foie
                                                 and Chanterelles</a></h3>
                                         <ul class="item-rating">
                                             <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -830,7 +830,7 @@
                                             <div class="item-ctg">DESERT</div>
                                             <h4 class="item-title"><a href="#">Salami Oven Roasted are
                                                     Mozzarella Oelette</a></h4>
-                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
+                                            <div class="item-post-by"><a href="single-blog.php"><i class="fas fa-user"></i><span>by</span>
                                                     John Martin</a></div>
                                         </div>
                                     </li>
@@ -843,7 +843,7 @@
                                             <div class="item-ctg">DESERT</div>
                                             <h4 class="item-title"><a href="#">Salami Oven Roasted are
                                                     Mozzarella Oelette</a></h4>
-                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
+                                            <div class="item-post-by"><a href="single-blog.php"><i class="fas fa-user"></i><span>by</span>
                                                     John Martin</a></div>
                                         </div>
                                     </li>
@@ -856,7 +856,7 @@
                                             <div class="item-ctg">DESERT</div>
                                             <h4 class="item-title"><a href="#">Salami Oven Roasted are
                                                     Mozzarella Oelette</a></h4>
-                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
+                                            <div class="item-post-by"><a href="single-blog.php"><i class="fas fa-user"></i><span>by</span>
                                                     John Martin</a></div>
                                         </div>
                                     </li>
@@ -869,7 +869,7 @@
                                             <div class="item-ctg">DESERT</div>
                                             <h4 class="item-title"><a href="#">Salami Oven Roasted are
                                                     Mozzarella Oelette</a></h4>
-                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
+                                            <div class="item-post-by"><a href="single-blog.php"><i class="fas fa-user"></i><span>by</span>
                                                     John Martin</a></div>
                                         </div>
                                     </li>
@@ -882,7 +882,7 @@
                                             <div class="item-ctg">DESERT</div>
                                             <h4 class="item-title"><a href="#">Salami Oven Roasted are
                                                     Mozzarella Oelette</a></h4>
-                                            <div class="item-post-by"><a href="single-blog.html"><i class="fas fa-user"></i><span>by</span>
+                                            <div class="item-post-by"><a href="single-blog.php"><i class="fas fa-user"></i><span>by</span>
                                                     John Martin</a></div>
                                         </div>
                                     </li>
@@ -955,7 +955,7 @@
                             <div class="product-box-layout5">
                                 <div class="item-figure">
                                     <img src="img/product/product26.jpg" alt="Product">
-                                    <a href="single-recipe1.html" class="item-dot">
+                                    <a href="single-recipe1.php" class="item-dot">
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -963,7 +963,7 @@
                                 </div>
                                 <div class="item-content">
                                     <span class="sub-title">BREAKFAST</span>
-                                    <h3 class="item-title"><a href="single-recipe1.html">Old School Pancakes So
+                                    <h3 class="item-title"><a href="single-recipe1.php">Old School Pancakes So
                                             Good They Don’t</a></h3>
                                     <ul class="item-rating">
                                         <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -984,7 +984,7 @@
                             <div class="product-box-layout5">
                                 <div class="item-figure">
                                     <img src="img/product/product27.jpg" alt="Product">
-                                    <a href="single-recipe1.html" class="item-dot">
+                                    <a href="single-recipe1.php" class="item-dot">
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -992,7 +992,7 @@
                                 </div>
                                 <div class="item-content">
                                     <span class="sub-title">BREAKFAST</span>
-                                    <h3 class="item-title"><a href="single-recipe1.html">Old School Pancakes So
+                                    <h3 class="item-title"><a href="single-recipe1.php">Old School Pancakes So
                                             Good They Don’t</a></h3>
                                     <ul class="item-rating">
                                         <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -1013,7 +1013,7 @@
                             <div class="product-box-layout5">
                                 <div class="item-figure">
                                     <img src="img/product/product28.jpg" alt="Product">
-                                    <a href="single-recipe1.html" class="item-dot">
+                                    <a href="single-recipe1.php" class="item-dot">
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -1021,7 +1021,7 @@
                                 </div>
                                 <div class="item-content">
                                     <span class="sub-title">BREAKFAST</span>
-                                    <h3 class="item-title"><a href="single-recipe1.html">Old School Pancakes So
+                                    <h3 class="item-title"><a href="single-recipe1.php">Old School Pancakes So
                                             Good They Don’t</a></h3>
                                     <ul class="item-rating">
                                         <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -1057,7 +1057,7 @@
                                     <div class="product-box-layout6">
                                         <div class="item-figure">
                                             <img src="img/product/product14.jpg" alt="Product">
-                                            <a href="single-recipe1.html" class="item-dot">
+                                            <a href="single-recipe1.php" class="item-dot">
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
@@ -1065,7 +1065,7 @@
                                         </div>
                                         <div class="item-content">
                                             <span class="sub-title">BREAKFAST</span>
-                                            <h3 class="item-title"><a href="single-recipe1.html">Asian Chicken Noodles</a></h3>
+                                            <h3 class="item-title"><a href="single-recipe1.php">Asian Chicken Noodles</a></h3>
                                             <ul class="item-rating">
                                                 <li class="star-fill"><i class="fas fa-star"></i></li>
                                                 <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -1089,7 +1089,7 @@
                                     <div class="product-box-layout6">
                                         <div class="item-figure">
                                             <img src="img/product/product15.jpg" alt="Product">
-                                            <a href="single-recipe1.html" class="item-dot">
+                                            <a href="single-recipe1.php" class="item-dot">
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
@@ -1097,7 +1097,7 @@
                                         </div>
                                         <div class="item-content">
                                             <span class="sub-title">SEA FOOD</span>
-                                            <h3 class="item-title"><a href="single-recipe1.html">Italiano Salad Mixed</a></h3>
+                                            <h3 class="item-title"><a href="single-recipe1.php">Italiano Salad Mixed</a></h3>
                                             <ul class="item-rating">
                                                 <li class="star-fill"><i class="fas fa-star"></i></li>
                                                 <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -1121,7 +1121,7 @@
                                     <div class="product-box-layout6">
                                         <div class="item-figure">
                                             <img src="img/product/product16.jpg" alt="Product">
-                                            <a href="single-recipe1.html" class="item-dot">
+                                            <a href="single-recipe1.php" class="item-dot">
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
@@ -1129,7 +1129,7 @@
                                         </div>
                                         <div class="item-content">
                                             <span class="sub-title">SALAD</span>
-                                            <h3 class="item-title"><a href="single-recipe1.html">Maxican Dessert</a></h3>
+                                            <h3 class="item-title"><a href="single-recipe1.php">Maxican Dessert</a></h3>
                                             <ul class="item-rating">
                                                 <li class="star-fill"><i class="fas fa-star"></i></li>
                                                 <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -1153,7 +1153,7 @@
                                     <div class="product-box-layout6">
                                         <div class="item-figure">
                                             <img src="img/product/product14.jpg" alt="Product">
-                                            <a href="single-recipe1.html" class="item-dot">
+                                            <a href="single-recipe1.php" class="item-dot">
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
@@ -1161,7 +1161,7 @@
                                         </div>
                                         <div class="item-content">
                                             <span class="sub-title">BREAKFAST</span>
-                                            <h3 class="item-title"><a href="single-recipe1.html">Asian Chicken Noodles</a></h3>
+                                            <h3 class="item-title"><a href="single-recipe1.php">Asian Chicken Noodles</a></h3>
                                             <ul class="item-rating">
                                                 <li class="star-fill"><i class="fas fa-star"></i></li>
                                                 <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -1221,7 +1221,7 @@
                                         </div>
                                         <div class="item-content">
                                             <span class="ctg-name">BREAKFAST</span>
-                                            <h4 class="item-title"><a href="single-recipe1.html">Baked Garlic Prawn</a></h4>
+                                            <h4 class="item-title"><a href="single-recipe1.php">Baked Garlic Prawn</a></h4>
                                             <p>Definitiones noel ei verear intelle
                                                 gatpri civibus consequat area
                                                 refund.</p>
@@ -1237,7 +1237,7 @@
                                         </div>
                                         <div class="item-content">
                                             <span class="ctg-name">DINNER</span>
-                                            <h4 class="item-title"><a href="single-recipe1.html">Baked Garlic Prawn</a></h4>
+                                            <h4 class="item-title"><a href="single-recipe1.php">Baked Garlic Prawn</a></h4>
                                             <p>Definitiones noel ei verear intelle
                                                 gatpri civibus consequat area
                                                 refund.</p>
@@ -1253,7 +1253,7 @@
                                         </div>
                                         <div class="item-content">
                                             <span class="ctg-name">SALAD</span>
-                                            <h4 class="item-title"><a href="single-recipe1.html">Baked Garlic Prawn</a></h4>
+                                            <h4 class="item-title"><a href="single-recipe1.php">Baked Garlic Prawn</a></h4>
                                             <p>Definitiones noel ei verear intelle
                                                 gatpri civibus consequat area
                                                 refund.</p>
@@ -1276,51 +1276,34 @@
             <div class="instagram-feed-title"><a href="#"><i class="fab fa-instagram"></i>Follow On Instagram</a></div>
             <ul class="instagram-feed-figure">
                 <li>
-                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure1.jpg" alt="Social"></a>
+                    <a href="single-recipe1.php"><img src="img/social-figure/social-figure1.jpg" alt="Social"></a>
                 </li>
                 <li>
-                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure2.jpg" alt="Social"></a>
+                    <a href="single-recipe1.php"><img src="img/social-figure/social-figure2.jpg" alt="Social"></a>
                 </li>
                 <li>
-                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure3.jpg" alt="Social"></a>
+                    <a href="single-recipe1.php"><img src="img/social-figure/social-figure3.jpg" alt="Social"></a>
                 </li>
                 <li>
-                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure4.jpg" alt="Social"></a>
+                    <a href="single-recipe1.php"><img src="img/social-figure/social-figure4.jpg" alt="Social"></a>
                 </li>
                 <li>
-                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure5.jpg" alt="Social"></a>
+                    <a href="single-recipe1.php"><img src="img/social-figure/social-figure5.jpg" alt="Social"></a>
                 </li>
                 <li>
-                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure6.jpg" alt="Social"></a>
+                    <a href="single-recipe1.php"><img src="img/social-figure/social-figure6.jpg" alt="Social"></a>
                 </li>
                 <li>
-                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure7.jpg" alt="Social"></a>
+                    <a href="single-recipe1.php"><img src="img/social-figure/social-figure7.jpg" alt="Social"></a>
                 </li>
                 <li>
-                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure8.jpg" alt="Social"></a>
+                    <a href="single-recipe1.php"><img src="img/social-figure/social-figure8.jpg" alt="Social"></a>
                 </li>
             </ul>
         </section>
         <!-- Instagram End Here -->
         <!-- Footer Area Start Here -->
-        <footer class="ranna-bg-light">
-            <div class="container">
-                <div class="footer-logo">
-                    <a href="index.html"><img src="img/logo-dark.png" class="img-fluid" alt="footer-logo"></a>
-                </div>
-                <div class="footer-menu">
-                    <ul>
-                        <li><a href="#">FACEBOOK</a></li>
-                        <li><a href="#">TWITTER</a></li>
-                        <li><a href="#">INSTAGRAM</a></li>
-                        <li><a href="#">PINTEREST</a></li>
-                        <li><a href="#">GOOGLEPLUS</a></li>
-                        <li><a href="#">YOUTUBE</a></li>
-                    </ul>
-                </div>
-                <div class="copyright">© All Right Reserved 2019</div>
-            </div>
-        </footer>
+        <?php include "footer.php"?>
         <!-- Footer Area End Here -->
     </div>
     <!-- Search Box Start Here -->
